@@ -1,0 +1,994 @@
+[
+  {
+    "date": "2026-10-10",
+    "mealId": "meal-1",
+    "ingredients": [
+      {
+        "productId": "skyr",
+        "amount": 300
+      },
+      {
+        "productId": "oats",
+        "amount": 40
+      },
+      {
+        "productId": "blueberry",
+        "amount": 150
+      },
+      {
+        "productId": "banana",
+        "amount": 100
+      },
+      {
+        "productId": "walnut",
+        "amount": 20
+      },
+      {
+        "productId": "cinnamon",
+        "amount": 1
+      }
+    ],
+    "nutrition": {
+      "kcal": 622.13,
+      "protein": 41.11,
+      "fat": 15.857,
+      "carbs": 72.305
+    }
+  },
+  {
+    "date": "2026-10-10",
+    "mealId": "meal-2",
+    "ingredients": [
+      {
+        "productId": "turkey",
+        "amount": 300
+      },
+      {
+        "productId": "kidney",
+        "amount": 240
+      },
+      {
+        "productId": "cannedtomato",
+        "amount": 400
+      },
+      {
+        "productId": "cumin",
+        "amount": 2
+      },
+      {
+        "productId": "paprika",
+        "amount": 1
+      }
+    ],
+    "nutrition": {
+      "kcal": 688.59,
+      "protein": 91.877,
+      "fat": 9.255,
+      "carbs": 49.585
+    }
+  },
+  {
+    "date": "2026-10-10",
+    "mealId": "meal-3",
+    "ingredients": [
+      {
+        "productId": "chicken",
+        "amount": 200
+      },
+      {
+        "productId": "broccoli",
+        "amount": 167
+      },
+      {
+        "productId": "carrot",
+        "amount": 150
+      },
+      {
+        "productId": "lemon",
+        "amount": 15
+      },
+      {
+        "productId": "paprika",
+        "amount": 1
+      },
+      {
+        "productId": "potato",
+        "amount": 265
+      }
+    ],
+    "nutrition": {
+      "kcal": 496.55,
+      "protein": 57.369,
+      "fat": 6.577,
+      "carbs": 43.817
+    }
+  },
+  {
+    "date": "2026-10-10",
+    "mealId": "meal-4",
+    "ingredients": [
+      {
+        "productId": "readychicken",
+        "amount": 120
+      },
+      {
+        "productId": "potato",
+        "amount": 265
+      },
+      {
+        "productId": "skyr",
+        "amount": 150
+      }
+    ],
+    "nutrition": {
+      "kcal": 382.15,
+      "protein": 44.940000000000005,
+      "fat": 4.115,
+      "carbs": 38.05
+    }
+  },
+  {
+    "date": "2026-10-11",
+    "mealId": "meal-1",
+    "ingredients": [
+      {
+        "productId": "fage",
+        "amount": 300
+      },
+      {
+        "productId": "oats",
+        "amount": 95
+      },
+      {
+        "productId": "banana",
+        "amount": 100
+      },
+      {
+        "productId": "pb",
+        "amount": 25
+      }
+    ],
+    "nutrition": {
+      "kcal": 759.9,
+      "protein": 50.94,
+      "fat": 19.535,
+      "carbs": 88.575
+    }
+  },
+  {
+    "date": "2026-10-11",
+    "mealId": "meal-2",
+    "ingredients": [
+      {
+        "productId": "chicken",
+        "amount": 200
+      },
+      {
+        "productId": "broccoli",
+        "amount": 168
+      },
+      {
+        "productId": "tomato",
+        "amount": 200
+      },
+      {
+        "productId": "herbs",
+        "amount": 1
+      },
+      {
+        "productId": "lemon",
+        "amount": 7.5
+      }
+    ],
+    "nutrition": {
+      "kcal": 334.845,
+      "protein": 55.601,
+      "fat": 5.8045,
+      "carbs": 11.192
+    }
+  },
+  {
+    "date": "2026-10-11",
+    "mealId": "meal-3",
+    "ingredients": [
+      {
+        "productId": "herbs",
+        "amount": 1
+      },
+      {
+        "productId": "lemon",
+        "amount": 7.5
+      },
+      {
+        "productId": "readyturkey",
+        "amount": 130
+      },
+      {
+        "productId": "basmati",
+        "amount": 250
+      },
+      {
+        "productId": "fage",
+        "amount": 50
+      }
+    ],
+    "nutrition": {
+      "kcal": 558.705,
+      "protein": 46.619,
+      "fat": 3.1325,
+      "carbs": 83.71800000000002
+    }
+  },
+  {
+    "date": "2026-10-11",
+    "mealId": "meal-4",
+    "ingredients": [
+      {
+        "productId": "chicken",
+        "amount": 200
+      },
+      {
+        "productId": "readychicken",
+        "amount": 120
+      },
+      {
+        "productId": "fage",
+        "amount": 100
+      },
+      {
+        "productId": "blueberry",
+        "amount": 150
+      }
+    ],
+    "nutrition": {
+      "kcal": 481.9,
+      "protein": 84.21,
+      "fat": 6.215,
+      "carbs": 21.11
+    }
+  },
+  {
+    "date": "2026-10-12",
+    "mealId": "meal-1",
+    "ingredients": [
+      {
+        "productId": "skyr",
+        "amount": 300
+      },
+      {
+        "productId": "oats",
+        "amount": 85
+      },
+      {
+        "productId": "banana",
+        "amount": 100
+      },
+      {
+        "productId": "walnut",
+        "amount": 20
+      },
+      {
+        "productId": "cinnamon",
+        "amount": 1
+      }
+    ],
+    "nutrition": {
+      "kcal": 722.03,
+      "protein": 45.25,
+      "fat": 18.767,
+      "carbs": 85.43
+    }
+  },
+  {
+    "date": "2026-10-12",
+    "mealId": "meal-2",
+    "ingredients": [
+      {
+        "productId": "readyturkey",
+        "amount": 130
+      },
+      {
+        "productId": "tomato",
+        "amount": 100
+      },
+      {
+        "productId": "cucumber",
+        "amount": 75
+      },
+      {
+        "productId": "herbs",
+        "amount": 1
+      },
+      {
+        "productId": "lemon",
+        "amount": 7.5
+      },
+      {
+        "productId": "readychicken",
+        "amount": 120
+      },
+      {
+        "productId": "potato",
+        "amount": 265
+      }
+    ],
+    "nutrition": {
+      "kcal": 473.105,
+      "protein": 64.534,
+      "fat": 5.785,
+      "carbs": 37.243
+    }
+  },
+  {
+    "date": "2026-10-12",
+    "mealId": "meal-3",
+    "ingredients": [
+      {
+        "productId": "readychicken",
+        "amount": 240
+      },
+      {
+        "productId": "tomato",
+        "amount": 100
+      },
+      {
+        "productId": "carrot",
+        "amount": 150
+      },
+      {
+        "productId": "cucumber",
+        "amount": 75
+      },
+      {
+        "productId": "herbs",
+        "amount": 1
+      },
+      {
+        "productId": "lemon",
+        "amount": 7.5
+      }
+    ],
+    "nutrition": {
+      "kcal": 398.055,
+      "protein": 56.104000000000006,
+      "fat": 6.4350000000000005,
+      "carbs": 24.663
+    }
+  },
+  {
+    "date": "2026-10-12",
+    "mealId": "meal-4",
+    "ingredients": [
+      {
+        "productId": "readychicken",
+        "amount": 120
+      },
+      {
+        "productId": "potato",
+        "amount": 265
+      },
+      {
+        "productId": "skyr",
+        "amount": 150
+      },
+      {
+        "productId": "cottage",
+        "amount": 275
+      }
+    ],
+    "nutrition": {
+      "kcal": 541.65,
+      "protein": 72.99000000000001,
+      "fat": 4.8025,
+      "carbs": 48.225
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "mealId": "meal-1",
+    "ingredients": [
+      {
+        "productId": "fage",
+        "amount": 300
+      },
+      {
+        "productId": "oats",
+        "amount": 20
+      },
+      {
+        "productId": "banana",
+        "amount": 100
+      },
+      {
+        "productId": "pb",
+        "amount": 25
+      },
+      {
+        "productId": "cinnamon",
+        "amount": 1
+      }
+    ],
+    "nutrition": {
+      "kcal": 483.33,
+      "protein": 41.83,
+      "fat": 14.072,
+      "carbs": 44.225
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "mealId": "meal-2",
+    "ingredients": [
+      {
+        "productId": "readychicken",
+        "amount": 240
+      },
+      {
+        "productId": "tomato",
+        "amount": 100
+      },
+      {
+        "productId": "pepper",
+        "amount": 75
+      },
+      {
+        "productId": "carrot",
+        "amount": 75
+      },
+      {
+        "productId": "cumin",
+        "amount": 1
+      },
+      {
+        "productId": "paprika",
+        "amount": 1
+      },
+      {
+        "productId": "lemon",
+        "amount": 7.5
+      },
+      {
+        "productId": "potato",
+        "amount": 265
+      }
+    ],
+    "nutrition": {
+      "kcal": 525.415,
+      "protein": 59.169000000000004,
+      "fat": 7.8545,
+      "carbs": 49.108
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "mealId": "meal-3",
+    "ingredients": [
+      {
+        "productId": "chickpea",
+        "amount": 240
+      },
+      {
+        "productId": "tomato",
+        "amount": 100
+      },
+      {
+        "productId": "pepper",
+        "amount": 75
+      },
+      {
+        "productId": "carrot",
+        "amount": 75
+      },
+      {
+        "productId": "cumin",
+        "amount": 1
+      },
+      {
+        "productId": "paprika",
+        "amount": 1
+      },
+      {
+        "productId": "lemon",
+        "amount": 7.5
+      },
+      {
+        "productId": "beef",
+        "amount": 100
+      },
+      {
+        "productId": "cottage",
+        "amount": 100
+      }
+    ],
+    "nutrition": {
+      "kcal": 562.0649999999999,
+      "protein": 54.309,
+      "fat": 10.5595,
+      "carbs": 52.088
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "mealId": "meal-4",
+    "ingredients": [
+      {
+        "productId": "readychicken",
+        "amount": 240
+      },
+      {
+        "productId": "potato",
+        "amount": 265
+      },
+      {
+        "productId": "fage",
+        "amount": 150
+      },
+      {
+        "productId": "cottage",
+        "amount": 50
+      },
+      {
+        "productId": "orange",
+        "amount": 150
+      }
+    ],
+    "nutrition": {
+      "kcal": 614.55,
+      "protein": 78.9,
+      "fat": 7.105,
+      "carbs": 55.11
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "mealId": "meal-1",
+    "ingredients": [
+      {
+        "productId": "skyr",
+        "amount": 300
+      },
+      {
+        "productId": "oats",
+        "amount": 80
+      },
+      {
+        "productId": "apple",
+        "amount": 150
+      },
+      {
+        "productId": "walnut",
+        "amount": 20
+      }
+    ],
+    "nutrition": {
+      "kcal": 695.0,
+      "protein": 44.3,
+      "fat": 18.89,
+      "carbs": 79.28
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "mealId": "meal-2",
+    "ingredients": [
+      {
+        "productId": "smokedturkey",
+        "amount": 80
+      },
+      {
+        "productId": "chickpea",
+        "amount": 240
+      },
+      {
+        "productId": "cucumber",
+        "amount": 75
+      },
+      {
+        "productId": "pepper",
+        "amount": 75
+      },
+      {
+        "productId": "carrot",
+        "amount": 75
+      },
+      {
+        "productId": "herbs",
+        "amount": 1
+      },
+      {
+        "productId": "lemon",
+        "amount": 7.5
+      }
+    ],
+    "nutrition": {
+      "kcal": 440.255,
+      "protein": 38.189,
+      "fat": 7.455,
+      "carbs": 45.258
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "mealId": "meal-3",
+    "ingredients": [
+      {
+        "productId": "beef",
+        "amount": 200
+      },
+      {
+        "productId": "cottage",
+        "amount": 100
+      },
+      {
+        "productId": "cucumber",
+        "amount": 75
+      },
+      {
+        "productId": "pepper",
+        "amount": 75
+      },
+      {
+        "productId": "carrot",
+        "amount": 75
+      },
+      {
+        "productId": "herbs",
+        "amount": 1
+      },
+      {
+        "productId": "lemon",
+        "amount": 7.5
+      },
+      {
+        "productId": "potato",
+        "amount": 265
+      }
+    ],
+    "nutrition": {
+      "kcal": 536.005,
+      "protein": 66.68900000000001,
+      "fat": 8.83,
+      "carbs": 42.508
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "mealId": "meal-4",
+    "ingredients": [
+      {
+        "productId": "readychicken",
+        "amount": 240
+      },
+      {
+        "productId": "skyr",
+        "amount": 150
+      },
+      {
+        "productId": "cottage",
+        "amount": 150
+      },
+      {
+        "productId": "orange",
+        "amount": 150
+      }
+    ],
+    "nutrition": {
+      "kcal": 535.8,
+      "protein": 85.47,
+      "fat": 6.180000000000001,
+      "carbs": 32.22
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "mealId": "meal-1",
+    "ingredients": [
+      {
+        "productId": "fage",
+        "amount": 300
+      },
+      {
+        "productId": "apple",
+        "amount": 150
+      },
+      {
+        "productId": "pb",
+        "amount": 25
+      },
+      {
+        "productId": "cinnamon",
+        "amount": 1
+      },
+      {
+        "productId": "cottage",
+        "amount": 75
+      }
+    ],
+    "nutrition": {
+      "kcal": 446.43,
+      "protein": 46.74,
+      "fat": 13.2995,
+      "carbs": 32.199999999999996
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "mealId": "meal-2",
+    "ingredients": [
+      {
+        "productId": "readychicken",
+        "amount": 240
+      },
+      {
+        "productId": "cucumber",
+        "amount": 75
+      },
+      {
+        "productId": "carrot",
+        "amount": 75
+      },
+      {
+        "productId": "pepper",
+        "amount": 75
+      },
+      {
+        "productId": "cottage",
+        "amount": 50
+      },
+      {
+        "productId": "paprika",
+        "amount": 1
+      },
+      {
+        "productId": "cumin",
+        "amount": 1
+      },
+      {
+        "productId": "lemon",
+        "amount": 7.5
+      }
+    ],
+    "nutrition": {
+      "kcal": 390.915,
+      "protein": 60.514,
+      "fat": 6.3420000000000005,
+      "carbs": 20.393
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "mealId": "meal-3",
+    "ingredients": [
+      {
+        "productId": "basmati",
+        "amount": 250
+      },
+      {
+        "productId": "cucumber",
+        "amount": 75
+      },
+      {
+        "productId": "carrot",
+        "amount": 75
+      },
+      {
+        "productId": "pepper",
+        "amount": 75
+      },
+      {
+        "productId": "paprika",
+        "amount": 1
+      },
+      {
+        "productId": "cumin",
+        "amount": 1
+      },
+      {
+        "productId": "lemon",
+        "amount": 7.5
+      },
+      {
+        "productId": "smokedturkey",
+        "amount": 160
+      }
+    ],
+    "nutrition": {
+      "kcal": 639.715,
+      "protein": 51.674,
+      "fat": 5.017,
+      "carbs": 92.37300000000002
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "mealId": "meal-4",
+    "ingredients": [
+      {
+        "productId": "readychicken",
+        "amount": 240
+      },
+      {
+        "productId": "potato",
+        "amount": 265
+      },
+      {
+        "productId": "fage",
+        "amount": 150
+      },
+      {
+        "productId": "orange",
+        "amount": 150
+      }
+    ],
+    "nutrition": {
+      "kcal": 585.55,
+      "protein": 73.8,
+      "fat": 6.98,
+      "carbs": 53.26
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "mealId": "meal-1",
+    "ingredients": [
+      {
+        "productId": "oats",
+        "amount": 60
+      },
+      {
+        "productId": "cottage",
+        "amount": 50
+      },
+      {
+        "productId": "carrot",
+        "amount": 75
+      },
+      {
+        "productId": "paprika",
+        "amount": 1
+      },
+      {
+        "productId": "cumin",
+        "amount": 1
+      },
+      {
+        "productId": "skyr",
+        "amount": 150
+      }
+    ],
+    "nutrition": {
+      "kcal": 382.89,
+      "protein": 28.114,
+      "fat": 5.1945,
+      "carbs": 49.958000000000006
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "mealId": "meal-2",
+    "ingredients": [
+      {
+        "productId": "beef",
+        "amount": 100
+      },
+      {
+        "productId": "readyturkey",
+        "amount": 130
+      },
+      {
+        "productId": "cucumber",
+        "amount": 75
+      },
+      {
+        "productId": "pepper",
+        "amount": 75
+      },
+      {
+        "productId": "carrot",
+        "amount": 75
+      },
+      {
+        "productId": "lemon",
+        "amount": 7.5
+      },
+      {
+        "productId": "potato",
+        "amount": 265
+      }
+    ],
+    "nutrition": {
+      "kcal": 482.875,
+      "protein": 63.315,
+      "fat": 6.25,
+      "carbs": 38.33
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "mealId": "meal-3",
+    "ingredients": [
+      {
+        "productId": "lentil",
+        "amount": 260
+      },
+      {
+        "productId": "cucumber",
+        "amount": 75
+      },
+      {
+        "productId": "pepper",
+        "amount": 75
+      },
+      {
+        "productId": "lemon",
+        "amount": 7.5
+      },
+      {
+        "productId": "paprika",
+        "amount": 1
+      },
+      {
+        "productId": "cumin",
+        "amount": 1
+      },
+      {
+        "productId": "readyturkey",
+        "amount": 130
+      },
+      {
+        "productId": "cottage",
+        "amount": 50
+      },
+      {
+        "productId": "readychicken",
+        "amount": 120
+      }
+    ],
+    "nutrition": {
+      "kcal": 530.015,
+      "protein": 78.879,
+      "fat": 5.2045,
+      "carbs": 38.478
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "mealId": "meal-4",
+    "ingredients": [
+      {
+        "productId": "readychicken",
+        "amount": 120
+      },
+      {
+        "productId": "potato",
+        "amount": 265
+      },
+      {
+        "productId": "skyr",
+        "amount": 300
+      },
+      {
+        "productId": "walnut",
+        "amount": 20
+      },
+      {
+        "productId": "apple",
+        "amount": 150
+      },
+      {
+        "productId": "orange",
+        "amount": 150
+      },
+      {
+        "productId": "cinnamon",
+        "amount": 1
+      }
+    ],
+    "nutrition": {
+      "kcal": 757.98,
+      "protein": 66.17,
+      "fat": 17.402,
+      "carbs": 76.755
+    }
+  }
+]

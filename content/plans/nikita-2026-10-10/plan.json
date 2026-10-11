@@ -1,0 +1,1731 @@
+{
+  "schemaVersion": 1,
+  "id": "nikita-2026-10-10",
+  "personId": "nikita",
+  "title": "Рацион на 10–16 октября",
+  "description": "Без рыбы, морепродуктов, тофу, киноа и оливкового масла.",
+  "hero": {
+    "src": "images/hero.png",
+    "alt": "Куриная грудка с овощами, йогурт с ягодами и орехами"
+  },
+  "facts": [
+    {
+      "value": "3 часа",
+      "label": "на заготовку"
+    },
+    {
+      "value": "5–10 минут",
+      "label": "активных действий в день"
+    },
+    {
+      "value": "Без морозилки",
+      "label": "хранение"
+    }
+  ],
+  "products": {
+    "chicken": {
+      "name": "куриная грудка, вес до готовки",
+      "originalName": "Waitrose Slower Reared Chicken Breast Fillets",
+      "unit": "g",
+      "packageSize": "600g",
+      "nutritionPer100": {
+        "kcal": 107.0,
+        "protein": 22.9,
+        "fat": 1.6,
+        "carbs": 0.25
+      }
+    },
+    "turkey": {
+      "name": "фарш индейки, вес до готовки",
+      "originalName": "Essential 3% Fat British Turkey Breast Mince",
+      "unit": "g",
+      "packageSize": "300g",
+      "nutritionPer100": {
+        "kcal": 115.0,
+        "protein": 23.5,
+        "fat": 2.0,
+        "carbs": 0.25
+      }
+    },
+    "readychicken": {
+      "name": "готовые кусочки куриной грудки",
+      "originalName": "Essential Cooked Chicken Breast Pieces",
+      "unit": "g",
+      "packageSize": "240g",
+      "nutritionPer100": {
+        "kcal": 122.0,
+        "protein": 22.3,
+        "fat": 2.2,
+        "carbs": 3.3
+      }
+    },
+    "skyr": {
+      "name": "Arla Skyr Natural",
+      "originalName": "Arla Skyr Natural Icelandic Style Yogurt",
+      "unit": "g",
+      "packageSize": "450g",
+      "nutritionPer100": {
+        "kcal": 60.0,
+        "protein": 10.0,
+        "fat": 0.1,
+        "carbs": 4.0
+      }
+    },
+    "fage": {
+      "name": "Fage Total 0%",
+      "originalName": "Fage Total 0% Fat Free Natural Greek Yogurt",
+      "unit": "g",
+      "packageSize": "450g",
+      "nutritionPer100": {
+        "kcal": 54.0,
+        "protein": 10.3,
+        "fat": 0.0,
+        "carbs": 3.0
+      }
+    },
+    "cottage": {
+      "name": "Essential Fat Free Cottage Cheese",
+      "originalName": "Essential Fat Free Cottage Cheese",
+      "unit": "g",
+      "packageSize": "300g",
+      "nutritionPer100": {
+        "kcal": 58.0,
+        "protein": 10.2,
+        "fat": 0.25,
+        "carbs": 3.7
+      }
+    },
+    "basmati": {
+      "name": "готовый рис басмати",
+      "originalName": "Waitrose Basmati Rice",
+      "unit": "g",
+      "packageSize": "250g",
+      "nutritionPer100": {
+        "kcal": 154.0,
+        "protein": 3.4,
+        "fat": 0.8,
+        "carbs": 32.7
+      }
+    },
+    "oats": {
+      "name": "сухие овсяные хлопья",
+      "originalName": "Essential Porridge Oats",
+      "unit": "g",
+      "packageSize": "1kg",
+      "nutritionPer100": {
+        "kcal": 372.0,
+        "protein": 12.2,
+        "fat": 7.3,
+        "carbs": 59.5
+      }
+    },
+    "walnut": {
+      "name": "грецкие орехи",
+      "originalName": "Waitrose Walnut Pieces",
+      "unit": "g",
+      "packageSize": "200g",
+      "nutritionPer100": {
+        "kcal": 667.0,
+        "protein": 18.2,
+        "fat": 60.0,
+        "carbs": 11.4
+      }
+    },
+    "pb": {
+      "name": "арахисовая паста 100%",
+      "originalName": "Waitrose 100% Peanuts Smooth Peanut Butter",
+      "unit": "g",
+      "packageSize": "340g",
+      "nutritionPer100": {
+        "kcal": 618.0,
+        "protein": 29.0,
+        "fat": 49.4,
+        "carbs": 11.0
+      }
+    },
+    "blueberry": {
+      "name": "голубика",
+      "originalName": "Essential Blueberries",
+      "unit": "g",
+      "packageSize": "150g",
+      "nutritionPer100": {
+        "kcal": 45.0,
+        "protein": 0.9,
+        "fat": 0.25,
+        "carbs": 9.1
+      }
+    },
+    "banana": {
+      "name": "банан без кожуры",
+      "originalName": "Essential Fairtrade Bananas",
+      "unit": "g",
+      "packageSize": "5s",
+      "nutritionPer100": {
+        "kcal": 90.0,
+        "protein": 1.2,
+        "fat": 0.25,
+        "carbs": 20.3
+      }
+    },
+    "apple": {
+      "name": "яблоко без сердцевины",
+      "originalName": "Waitrose Braeburn Apples",
+      "unit": "g",
+      "packageSize": "minimum 5",
+      "nutritionPer100": {
+        "kcal": 56.0,
+        "protein": 0.6,
+        "fat": 0.5,
+        "carbs": 11.6
+      }
+    },
+    "orange": {
+      "name": "апельсин без кожуры",
+      "originalName": "Essential Oranges",
+      "unit": "g",
+      "packageSize": "5s",
+      "nutritionPer100": {
+        "kcal": 44.0,
+        "protein": 1.1,
+        "fat": 0.25,
+        "carbs": 8.5
+      }
+    },
+    "broccoli": {
+      "name": "брокколи, вес до готовки",
+      "originalName": "Waitrose Large Broccoli Crown",
+      "unit": "g",
+      "packageSize": "335g",
+      "nutritionPer100": {
+        "kcal": 38.0,
+        "protein": 4.4,
+        "fat": 0.9,
+        "carbs": 1.8
+      }
+    },
+    "carrot": {
+      "name": "морковь",
+      "originalName": "Essential British Carrots",
+      "unit": "g",
+      "packageSize": "1kg",
+      "nutritionPer100": {
+        "kcal": 44.0,
+        "protein": 0.5,
+        "fat": 0.25,
+        "carbs": 7.7
+      }
+    },
+    "tomato": {
+      "name": "помидоры черри",
+      "originalName": "Essential Cherry Tomatoes",
+      "unit": "g",
+      "packageSize": "400g",
+      "nutritionPer100": {
+        "kcal": 26.0,
+        "protein": 1.1,
+        "fat": 0.5,
+        "carbs": 3.6
+      }
+    },
+    "cucumber": {
+      "name": "огурец",
+      "originalName": "Waitrose Loose Cucumber",
+      "unit": "g",
+      "packageSize": "each",
+      "nutritionPer100": {
+        "kcal": 11.0,
+        "protein": 0.7,
+        "fat": 0.25,
+        "carbs": 1.5
+      }
+    },
+    "pepper": {
+      "name": "сладкий перец без семян",
+      "originalName": "Essential Mixed Peppers",
+      "unit": "g",
+      "packageSize": "3s",
+      "nutritionPer100": {
+        "kcal": 24.0,
+        "protein": 0.8,
+        "fat": 0.25,
+        "carbs": 3.8
+      }
+    },
+    "chickpea": {
+      "name": "консервированный нут без жидкости",
+      "originalName": "Essential Chickpeas in Water",
+      "unit": "g",
+      "packageSize": "400g",
+      "nutritionPer100": {
+        "kcal": 118.0,
+        "protein": 6.6,
+        "fat": 2.4,
+        "carbs": 14.6
+      }
+    },
+    "kidney": {
+      "name": "консервированная красная фасоль без жидкости",
+      "originalName": "Essential Red Kidney Beans in Water",
+      "unit": "g",
+      "packageSize": "400g",
+      "nutritionPer100": {
+        "kcal": 103.0,
+        "protein": 7.2,
+        "fat": 0.7,
+        "carbs": 13.9
+      }
+    },
+    "lentil": {
+      "name": "консервированная чечевица без жидкости",
+      "originalName": "Essential Lentils in Water",
+      "unit": "g",
+      "packageSize": "400g",
+      "nutritionPer100": {
+        "kcal": 68.0,
+        "protein": 4.9,
+        "fat": 0.25,
+        "carbs": 10.7
+      }
+    },
+    "lemon": {
+      "name": "лимон для заправки, съедобная часть",
+      "originalName": "Essential Lemons",
+      "unit": "g",
+      "packageSize": "5s",
+      "nutritionPer100": {
+        "kcal": 29.0,
+        "protein": 1.0,
+        "fat": 0.3,
+        "carbs": 3.2
+      }
+    },
+    "herbs": {
+      "name": "сушёные смешанные травы",
+      "originalName": "Cooks' Ingredients Mixed Herbs",
+      "unit": "g",
+      "packageSize": "11.5g",
+      "nutritionPer100": {
+        "kcal": 283.0,
+        "protein": 13.4,
+        "fat": 7.0,
+        "carbs": 22.8
+      }
+    },
+    "paprika": {
+      "name": "копчёная паприка",
+      "originalName": "Cooks' Ingredients Smoked Paprika",
+      "unit": "g",
+      "packageSize": "40g",
+      "nutritionPer100": {
+        "kcal": 299.0,
+        "protein": 14.1,
+        "fat": 12.9,
+        "carbs": 19.1
+      }
+    },
+    "cumin": {
+      "name": "молотый кумин",
+      "originalName": "Cooks' Ingredients Ground Cumin",
+      "unit": "g",
+      "packageSize": "40g",
+      "nutritionPer100": {
+        "kcal": 470.0,
+        "protein": 17.8,
+        "fat": 22.3,
+        "carbs": 44.2
+      }
+    },
+    "cinnamon": {
+      "name": "корица",
+      "originalName": "Cooks' Ingredients Cinnamon",
+      "unit": "g",
+      "packageSize": "32g",
+      "nutritionPer100": {
+        "kcal": 243.0,
+        "protein": 4.0,
+        "fat": 1.2,
+        "carbs": 27.5
+      }
+    },
+    "cannedtomato": {
+      "name": "консервированные рубленые томаты с соком",
+      "originalName": "Essential Chopped Tomatoes in Natural Juice",
+      "unit": "g",
+      "packageSize": "400g",
+      "nutritionPer100": {
+        "kcal": 21.0,
+        "protein": 0.9,
+        "fat": 0.25,
+        "carbs": 3.6
+      }
+    },
+    "beef": {
+      "name": "готовый ростбиф",
+      "originalName": "Waitrose British Roast Beef Topside 3 Slices",
+      "unit": "g",
+      "packageSize": "100g",
+      "nutritionPer100": {
+        "kcal": 134.0,
+        "protein": 25.8,
+        "fat": 3.3,
+        "carbs": 0.25
+      }
+    },
+    "readyturkey": {
+      "name": "готовая грудка индейки",
+      "originalName": "Waitrose Roast Turkey Breast 6 Slices",
+      "unit": "g",
+      "packageSize": "130g",
+      "nutritionPer100": {
+        "kcal": 109.0,
+        "protein": 25.2,
+        "fat": 0.8,
+        "carbs": 0.0
+      }
+    },
+    "smokedturkey": {
+      "name": "готовая копчёная индейка",
+      "originalName": "No.1 Free Range Applewood Smoked Turkey",
+      "unit": "g",
+      "packageSize": "80g",
+      "nutritionPer100": {
+        "kcal": 116.0,
+        "protein": 25.8,
+        "fat": 1.3,
+        "carbs": 0.0
+      }
+    },
+    "potato": {
+      "name": "готовый картофель без жидкости",
+      "originalName": "Essential Small Potatoes in Water",
+      "unit": "g",
+      "packageSize": "400g",
+      "nutritionPer100": {
+        "kcal": 55.0,
+        "protein": 1.2,
+        "fat": 0.5,
+        "carbs": 10.6
+      }
+    }
+  },
+  "days": [
+    {
+      "date": "2026-10-10",
+      "meals": [
+        {
+          "id": "meal-1",
+          "type": "Завтрак",
+          "title": "Скир с голубикой, бананом и орехами",
+          "image": {
+            "src": "images/day-01-meal-01.jpg",
+            "alt": "Иллюстрация блюда: Скир с голубикой, бананом и орехами"
+          },
+          "ingredients": [
+            {
+              "productId": "skyr",
+              "amount": 300
+            },
+            {
+              "productId": "oats",
+              "amount": 40
+            },
+            {
+              "productId": "blueberry",
+              "amount": 150
+            },
+            {
+              "productId": "banana",
+              "amount": 100
+            },
+            {
+              "productId": "walnut",
+              "amount": 20
+            },
+            {
+              "productId": "cinnamon",
+              "amount": 1
+            }
+          ],
+          "instructions": "Овсянку залить небольшим количеством кипятка, затем смешать со скиром и добавками."
+        },
+        {
+          "id": "meal-2",
+          "type": "Обед",
+          "title": "Чили из индейки с красной фасолью",
+          "image": {
+            "src": "images/day-01-meal-02.jpg",
+            "alt": "Иллюстрация блюда: Чили из индейки с красной фасолью"
+          },
+          "ingredients": [
+            {
+              "productId": "turkey",
+              "amount": 300
+            },
+            {
+              "productId": "kidney",
+              "amount": 240
+            },
+            {
+              "productId": "cannedtomato",
+              "amount": 400
+            },
+            {
+              "productId": "cumin",
+              "amount": 2
+            },
+            {
+              "productId": "paprika",
+              "amount": 1
+            }
+          ],
+          "instructions": "Приготовить в конце субботней заготовки и съесть горячим сразу. Готовить фарш в антипригарной сковороде с 1 столовой ложкой воды, помешивая; добавить томаты и специи, протушить до полной готовности и вмешать фасоль. Весь объём — одна большая порция."
+        },
+        {
+          "id": "meal-3",
+          "type": "Ужин",
+          "title": "Куриная грудка с картофелем и овощами",
+          "image": {
+            "src": "images/day-01-meal-03-satiety.jpg",
+            "alt": "Иллюстрация блюда: Куриная грудка с картофелем и овощами"
+          },
+          "ingredients": [
+            {
+              "productId": "chicken",
+              "amount": 200
+            },
+            {
+              "productId": "broccoli",
+              "amount": 167
+            },
+            {
+              "productId": "carrot",
+              "amount": 150
+            },
+            {
+              "productId": "lemon",
+              "amount": 15
+            },
+            {
+              "productId": "paprika",
+              "amount": 1
+            },
+            {
+              "productId": "potato",
+              "amount": 265
+            }
+          ],
+          "instructions": "Домашнюю курицу подать холодной с брокколи, морковью и картофелем. Добавить лимон и паприку. Морковь вымыть, при необходимости очистить и натереть или тонко нарезать сырой. Картофель: нагреть в жидкости из банки на плите 4–5 минут, затем слить; по этикетке не готовить в микроволновке и не жарить. 265 г — содержимое одной банки после слива."
+        },
+        {
+          "id": "meal-4",
+          "type": "Перекусы",
+          "title": "Курица с картофелем и скир",
+          "image": {
+            "src": "images/day-01-meal-04-satiety.jpg",
+            "alt": "Иллюстрация блюда: Курица с картофелем и скир"
+          },
+          "ingredients": [
+            {
+              "productId": "readychicken",
+              "amount": 120
+            },
+            {
+              "productId": "potato",
+              "amount": 265
+            },
+            {
+              "productId": "skyr",
+              "amount": 150
+            }
+          ],
+          "instructions": "Подать курицу с картофелем, скир отдельно. Открыть пачку готовой курицы вечером: оставшиеся 120 г сразу закрыть и убрать в холодильник, съесть в воскресенье до того же времени (в пределах 24 часов). При желании разделить на два небольших приёма пищи. Картофель: нагреть в жидкости из банки на плите 4–5 минут, затем слить; по этикетке не готовить в микроволновке и не жарить. 265 г — содержимое одной банки после слива."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "meals": [
+        {
+          "id": "meal-1",
+          "type": "Завтрак",
+          "title": "Бананово-арахисовая овсянка с греческим йогуртом",
+          "image": {
+            "src": "images/day-02-meal-01.jpg",
+            "alt": "Иллюстрация блюда: Бананово-арахисовая овсянка с греческим йогуртом"
+          },
+          "ingredients": [
+            {
+              "productId": "fage",
+              "amount": 300
+            },
+            {
+              "productId": "oats",
+              "amount": 95
+            },
+            {
+              "productId": "banana",
+              "amount": 100
+            },
+            {
+              "productId": "pb",
+              "amount": 25
+            }
+          ],
+          "instructions": "Овсянку размягчить кипятком или приготовить в микроволновке на воде; добавить йогурт, банан и пасту."
+        },
+        {
+          "id": "meal-2",
+          "type": "Обед",
+          "title": "Холодная курица с травами, брокколи и томатами",
+          "image": {
+            "src": "images/day-02-meal-02.jpg",
+            "alt": "Иллюстрация блюда: Холодная курица с травами, брокколи и томатами"
+          },
+          "ingredients": [
+            {
+              "productId": "chicken",
+              "amount": 200
+            },
+            {
+              "productId": "broccoli",
+              "amount": 168
+            },
+            {
+              "productId": "tomato",
+              "amount": 200
+            },
+            {
+              "productId": "herbs",
+              "amount": 1
+            },
+            {
+              "productId": "lemon",
+              "amount": 7.5
+            }
+          ],
+          "instructions": "Взять одну из трёх равных порций домашней курицы (эквивалент 200 г до готовки) и оставшуюся брокколи. Подать холодными с помидорами, лимоном и травами. Последняя порция домашней курицы остаётся на перекус этого же дня."
+        },
+        {
+          "id": "meal-3",
+          "type": "Ужин",
+          "title": "Индейка с лимоном и рисом басмати",
+          "image": {
+            "src": "images/day-02-meal-03-satiety.jpg",
+            "alt": "Иллюстрация блюда: Индейка с лимоном и рисом басмати"
+          },
+          "ingredients": [
+            {
+              "productId": "herbs",
+              "amount": 1
+            },
+            {
+              "productId": "lemon",
+              "amount": 7.5
+            },
+            {
+              "productId": "readyturkey",
+              "amount": 130
+            },
+            {
+              "productId": "basmati",
+              "amount": 250
+            },
+            {
+              "productId": "fage",
+              "amount": 50
+            }
+          ],
+          "instructions": "Разогреть весь пакет басмати по этикетке и съесть сразу. Открыть упаковку готовой индейки 130 г. Йогурт смешать с лимоном и травами; подать с рисом и индейкой."
+        },
+        {
+          "id": "meal-4",
+          "type": "Перекусы",
+          "title": "Куриная тарелка и йогурт с ягодами",
+          "image": {
+            "src": "images/day-02-meal-04-satiety.jpg",
+            "alt": "Иллюстрация блюда: Куриная тарелка и йогурт с ягодами"
+          },
+          "ingredients": [
+            {
+              "productId": "chicken",
+              "amount": 200
+            },
+            {
+              "productId": "readychicken",
+              "amount": 120
+            },
+            {
+              "productId": "fage",
+              "amount": 100
+            },
+            {
+              "productId": "blueberry",
+              "amount": 150
+            }
+          ],
+          "instructions": "Подать оставшуюся домашнюю курицу и 120 г готовой курицы холодными. Готовую курицу из открытой в субботу пачки съесть в пределах 24 часов после открытия. Йогурт с голубикой — отдельно, можно вторым перекусом."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "meals": [
+        {
+          "id": "meal-1",
+          "type": "Завтрак",
+          "title": "Банановая каша со скиром и корицей",
+          "image": {
+            "src": "images/day-03-meal-01.jpg",
+            "alt": "Иллюстрация блюда: Банановая каша со скиром и корицей"
+          },
+          "ingredients": [
+            {
+              "productId": "skyr",
+              "amount": 300
+            },
+            {
+              "productId": "oats",
+              "amount": 85
+            },
+            {
+              "productId": "banana",
+              "amount": 100
+            },
+            {
+              "productId": "walnut",
+              "amount": 20
+            },
+            {
+              "productId": "cinnamon",
+              "amount": 1
+            }
+          ],
+          "instructions": "Кашу приготовить на воде; скир добавить после небольшого остывания."
+        },
+        {
+          "id": "meal-2",
+          "type": "Обед",
+          "title": "Индейка и курица с картофелем",
+          "image": {
+            "src": "images/day-03-meal-02-satiety.jpg",
+            "alt": "Иллюстрация блюда: Индейка и курица с картофелем"
+          },
+          "ingredients": [
+            {
+              "productId": "readyturkey",
+              "amount": 130
+            },
+            {
+              "productId": "tomato",
+              "amount": 100
+            },
+            {
+              "productId": "cucumber",
+              "amount": 75
+            },
+            {
+              "productId": "herbs",
+              "amount": 1
+            },
+            {
+              "productId": "lemon",
+              "amount": 7.5
+            },
+            {
+              "productId": "readychicken",
+              "amount": 120
+            },
+            {
+              "productId": "potato",
+              "amount": 265
+            }
+          ],
+          "instructions": "Открыть упаковку индейки. От новой пачки курицы взять 120 г, оставшиеся 120 г оставить на перекус этого же дня. Добавить картофель, помидоры, огурец лимон и травы. Картофель: нагреть в жидкости из банки на плите 4–5 минут, затем слить; по этикетке не готовить в микроволновке и не жарить. 265 г — содержимое одной банки после слива."
+        },
+        {
+          "id": "meal-3",
+          "type": "Ужин",
+          "title": "Куриный салат с хрустящей морковью",
+          "image": {
+            "src": "images/day-03-meal-03.jpg",
+            "alt": "Иллюстрация блюда: Куриный салат с хрустящей морковью"
+          },
+          "ingredients": [
+            {
+              "productId": "readychicken",
+              "amount": 240
+            },
+            {
+              "productId": "tomato",
+              "amount": 100
+            },
+            {
+              "productId": "carrot",
+              "amount": 150
+            },
+            {
+              "productId": "cucumber",
+              "amount": 75
+            },
+            {
+              "productId": "herbs",
+              "amount": 1
+            },
+            {
+              "productId": "lemon",
+              "amount": 7.5
+            }
+          ],
+          "instructions": "Открыть одну новую упаковку готовой курицы и использовать полностью. Морковь натереть крупно или нарезать тонко. Готовую курицу можно есть холодной или разогреть по этикетке: 2½ минуты при 800 Вт и 1 минуту выдержать; после такого нагрева повторно не разогревать."
+        },
+        {
+          "id": "meal-4",
+          "type": "Перекусы",
+          "title": "Курица с картофелем, скир и cottage cheese",
+          "image": {
+            "src": "images/day-03-meal-04-satiety.jpg",
+            "alt": "Иллюстрация блюда: Курица с картофелем, скир и cottage cheese"
+          },
+          "ingredients": [
+            {
+              "productId": "readychicken",
+              "amount": 120
+            },
+            {
+              "productId": "potato",
+              "amount": 265
+            },
+            {
+              "productId": "skyr",
+              "amount": 150
+            },
+            {
+              "productId": "cottage",
+              "amount": 275
+            }
+          ],
+          "instructions": "Курицу с картофелем съесть отдельной порцией. Скир и cottage cheese разделить на ещё один перекус по аппетиту. Картофель: нагреть в жидкости из банки на плите 4–5 минут, затем слить; по этикетке не готовить в микроволновке и не жарить. 265 г — содержимое одной банки после слива."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "meals": [
+        {
+          "id": "meal-1",
+          "type": "Завтрак",
+          "title": "Йогуртовый крем с бананом и арахисовой пастой",
+          "image": {
+            "src": "images/day-04-meal-01.jpg",
+            "alt": "Иллюстрация блюда: Йогуртовый крем с бананом и арахисовой пастой"
+          },
+          "ingredients": [
+            {
+              "productId": "fage",
+              "amount": 300
+            },
+            {
+              "productId": "oats",
+              "amount": 20
+            },
+            {
+              "productId": "banana",
+              "amount": 100
+            },
+            {
+              "productId": "pb",
+              "amount": 25
+            },
+            {
+              "productId": "cinnamon",
+              "amount": 1
+            }
+          ],
+          "instructions": "Овсянку размягчить водой, банан размять; смешать с йогуртом и пастой."
+        },
+        {
+          "id": "meal-2",
+          "type": "Обед",
+          "title": "Курица с картофелем и овощами",
+          "image": {
+            "src": "images/day-04-meal-02-satiety.jpg",
+            "alt": "Иллюстрация блюда: Курица с картофелем и овощами"
+          },
+          "ingredients": [
+            {
+              "productId": "readychicken",
+              "amount": 240
+            },
+            {
+              "productId": "tomato",
+              "amount": 100
+            },
+            {
+              "productId": "pepper",
+              "amount": 75
+            },
+            {
+              "productId": "carrot",
+              "amount": 75
+            },
+            {
+              "productId": "cumin",
+              "amount": 1
+            },
+            {
+              "productId": "paprika",
+              "amount": 1
+            },
+            {
+              "productId": "lemon",
+              "amount": 7.5
+            },
+            {
+              "productId": "potato",
+              "amount": 265
+            }
+          ],
+          "instructions": "Открыть пачку курицы 240 г. Подать с картофелем, помидорами, перцем и морковью, добавить лимон и специи. Картофель: нагреть в жидкости из банки на плите 4–5 минут, затем слить; по этикетке не готовить в микроволновке и не жарить. 265 г — содержимое одной банки после слива. Готовую курицу можно есть холодной или разогреть по этикетке: 2½ минуты при 800 Вт и 1 минуту выдержать; после такого нагрева повторно не разогревать."
+        },
+        {
+          "id": "meal-3",
+          "type": "Ужин",
+          "title": "Ростбиф с нутом и сладким перцем",
+          "image": {
+            "src": "images/day-04-meal-03.jpg",
+            "alt": "Иллюстрация блюда: Ростбиф с нутом и сладким перцем"
+          },
+          "ingredients": [
+            {
+              "productId": "chickpea",
+              "amount": 240
+            },
+            {
+              "productId": "tomato",
+              "amount": 100
+            },
+            {
+              "productId": "pepper",
+              "amount": 75
+            },
+            {
+              "productId": "carrot",
+              "amount": 75
+            },
+            {
+              "productId": "cumin",
+              "amount": 1
+            },
+            {
+              "productId": "paprika",
+              "amount": 1
+            },
+            {
+              "productId": "lemon",
+              "amount": 7.5
+            },
+            {
+              "productId": "beef",
+              "amount": 100
+            },
+            {
+              "productId": "cottage",
+              "amount": 100
+            }
+          ],
+          "instructions": "Открыть новую упаковку ростбифа 100 г и банку нута, слить жидкость. Мясо нарезать полосками, овощи — небольшими кусочками. Cottage cheese размять с лимоном и специями; собрать салат."
+        },
+        {
+          "id": "meal-4",
+          "type": "Перекусы",
+          "title": "Курица с картофелем и йогурт с апельсином",
+          "image": {
+            "src": "images/day-04-meal-04-satiety.jpg",
+            "alt": "Иллюстрация блюда: Курица с картофелем и йогурт с апельсином"
+          },
+          "ingredients": [
+            {
+              "productId": "readychicken",
+              "amount": 240
+            },
+            {
+              "productId": "potato",
+              "amount": 265
+            },
+            {
+              "productId": "fage",
+              "amount": 150
+            },
+            {
+              "productId": "cottage",
+              "amount": 50
+            },
+            {
+              "productId": "orange",
+              "amount": 150
+            }
+          ],
+          "instructions": "Открыть вторую пачку курицы. Подать с картофелем и cottage cheese. Йогурт и апельсин съесть отдельно, вторым перекусом. Картофель: нагреть в жидкости из банки на плите 4–5 минут, затем слить; по этикетке не готовить в микроволновке и не жарить. 265 г — содержимое одной банки после слива. Готовую курицу можно есть холодной или разогреть по этикетке: 2½ минуты при 800 Вт и 1 минуту выдержать; после такого нагрева повторно не разогревать."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "meals": [
+        {
+          "id": "meal-1",
+          "type": "Завтрак",
+          "title": "Яблочный скир с овсянкой и грецкими орехами",
+          "image": {
+            "src": "images/day-05-meal-01.jpg",
+            "alt": "Иллюстрация блюда: Яблочный скир с овсянкой и грецкими орехами"
+          },
+          "ingredients": [
+            {
+              "productId": "skyr",
+              "amount": 300
+            },
+            {
+              "productId": "oats",
+              "amount": 80
+            },
+            {
+              "productId": "apple",
+              "amount": 150
+            },
+            {
+              "productId": "walnut",
+              "amount": 20
+            }
+          ],
+          "instructions": "Яблоко натереть непосредственно перед едой; овсянку размягчить кипятком и смешать со скиром."
+        },
+        {
+          "id": "meal-2",
+          "type": "Обед",
+          "title": "Салат с копчёной индейкой и нутом",
+          "image": {
+            "src": "images/day-05-meal-02.jpg",
+            "alt": "Иллюстрация блюда: Салат с копчёной индейкой и нутом"
+          },
+          "ingredients": [
+            {
+              "productId": "smokedturkey",
+              "amount": 80
+            },
+            {
+              "productId": "chickpea",
+              "amount": 240
+            },
+            {
+              "productId": "cucumber",
+              "amount": 75
+            },
+            {
+              "productId": "pepper",
+              "amount": 75
+            },
+            {
+              "productId": "carrot",
+              "amount": 75
+            },
+            {
+              "productId": "herbs",
+              "amount": 1
+            },
+            {
+              "productId": "lemon",
+              "amount": 7.5
+            }
+          ],
+          "instructions": "Открыть упаковку индейки и банку нута. Слить жидкость из нута, смешать с овощами и заправкой."
+        },
+        {
+          "id": "meal-3",
+          "type": "Ужин",
+          "title": "Ростбиф с картофелем и овощным салатом",
+          "image": {
+            "src": "images/day-05-meal-03-satiety.jpg",
+            "alt": "Иллюстрация блюда: Ростбиф с картофелем и овощным салатом"
+          },
+          "ingredients": [
+            {
+              "productId": "beef",
+              "amount": 200
+            },
+            {
+              "productId": "cottage",
+              "amount": 100
+            },
+            {
+              "productId": "cucumber",
+              "amount": 75
+            },
+            {
+              "productId": "pepper",
+              "amount": 75
+            },
+            {
+              "productId": "carrot",
+              "amount": 75
+            },
+            {
+              "productId": "herbs",
+              "amount": 1
+            },
+            {
+              "productId": "lemon",
+              "amount": 7.5
+            },
+            {
+              "productId": "potato",
+              "amount": 265
+            }
+          ],
+          "instructions": "Открыть две упаковки ростбифа по 100 г. Подать с картофелем, cottage cheese и овощным салатом с лимоном и травами. Картофель: нагреть в жидкости из банки на плите 4–5 минут, затем слить; по этикетке не готовить в микроволновке и не жарить. 265 г — содержимое одной банки после слива."
+        },
+        {
+          "id": "meal-4",
+          "type": "Перекусы",
+          "title": "Курица и скир с апельсином",
+          "image": {
+            "src": "images/day-05-meal-04-satiety.jpg",
+            "alt": "Иллюстрация блюда: Курица и скир с апельсином"
+          },
+          "ingredients": [
+            {
+              "productId": "readychicken",
+              "amount": 240
+            },
+            {
+              "productId": "skyr",
+              "amount": 150
+            },
+            {
+              "productId": "cottage",
+              "amount": 150
+            },
+            {
+              "productId": "orange",
+              "amount": 150
+            }
+          ],
+          "instructions": "Открыть пачку курицы. Подать с cottage cheese; скир с апельсином съесть отдельно. Можно разделить на два перекуса. Готовую курицу можно есть холодной или разогреть по этикетке: 2½ минуты при 800 Вт и 1 минуту выдержать; после такого нагрева повторно не разогревать."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "meals": [
+        {
+          "id": "meal-1",
+          "type": "Завтрак",
+          "title": "Йогуртовый крем с яблоком и арахисовой пастой",
+          "image": {
+            "src": "images/day-06-meal-01-satiety.jpg",
+            "alt": "Иллюстрация блюда: Йогуртовый крем с яблоком и арахисовой пастой"
+          },
+          "ingredients": [
+            {
+              "productId": "fage",
+              "amount": 300
+            },
+            {
+              "productId": "apple",
+              "amount": 150
+            },
+            {
+              "productId": "pb",
+              "amount": 25
+            },
+            {
+              "productId": "cinnamon",
+              "amount": 1
+            },
+            {
+              "productId": "cottage",
+              "amount": 75
+            }
+          ],
+          "instructions": "Cottage cheese размять вилкой и смешать с йогуртом, яблоком, арахисовой пастой и корицей."
+        },
+        {
+          "id": "meal-2",
+          "type": "Обед",
+          "title": "Куриный салат с творожной заправкой",
+          "image": {
+            "src": "images/day-06-meal-02.jpg",
+            "alt": "Иллюстрация блюда: Куриный салат с творожной заправкой"
+          },
+          "ingredients": [
+            {
+              "productId": "readychicken",
+              "amount": 240
+            },
+            {
+              "productId": "cucumber",
+              "amount": 75
+            },
+            {
+              "productId": "carrot",
+              "amount": 75
+            },
+            {
+              "productId": "pepper",
+              "amount": 75
+            },
+            {
+              "productId": "cottage",
+              "amount": 50
+            },
+            {
+              "productId": "paprika",
+              "amount": 1
+            },
+            {
+              "productId": "cumin",
+              "amount": 1
+            },
+            {
+              "productId": "lemon",
+              "amount": 7.5
+            }
+          ],
+          "instructions": "Открыть одну из двух упаковок готовой курицы на четверг. Cottage cheese размять с лимоном и специями. Готовую курицу можно есть холодной или разогреть по этикетке: 2½ минуты при 800 Вт и 1 минуту выдержать; после такого нагрева повторно не разогревать."
+        },
+        {
+          "id": "meal-3",
+          "type": "Ужин",
+          "title": "Копчёная индейка с басмати и овощами",
+          "image": {
+            "src": "images/day-06-meal-03.jpg",
+            "alt": "Иллюстрация блюда: Копчёная индейка с басмати и овощами"
+          },
+          "ingredients": [
+            {
+              "productId": "basmati",
+              "amount": 250
+            },
+            {
+              "productId": "cucumber",
+              "amount": 75
+            },
+            {
+              "productId": "carrot",
+              "amount": 75
+            },
+            {
+              "productId": "pepper",
+              "amount": 75
+            },
+            {
+              "productId": "paprika",
+              "amount": 1
+            },
+            {
+              "productId": "cumin",
+              "amount": 1
+            },
+            {
+              "productId": "lemon",
+              "amount": 7.5
+            },
+            {
+              "productId": "smokedturkey",
+              "amount": 160
+            }
+          ],
+          "instructions": "Открыть две новые упаковки копчёной индейки по 80 г. Нагреть целый пакет риса, добавить нарезанную индейку, свежие овощи, специи и лимонную заправку; съесть сразу."
+        },
+        {
+          "id": "meal-4",
+          "type": "Перекусы",
+          "title": "Курица с картофелем и йогурт с апельсином",
+          "image": {
+            "src": "images/day-06-meal-04-satiety.jpg",
+            "alt": "Иллюстрация блюда: Курица с картофелем и йогурт с апельсином"
+          },
+          "ingredients": [
+            {
+              "productId": "readychicken",
+              "amount": 240
+            },
+            {
+              "productId": "potato",
+              "amount": 265
+            },
+            {
+              "productId": "fage",
+              "amount": 150
+            },
+            {
+              "productId": "orange",
+              "amount": 150
+            }
+          ],
+          "instructions": "Открыть вторую пачку курицы и подать с картофелем. Йогурт с апельсином съесть отдельно, вторым перекусом. Картофель: нагреть в жидкости из банки на плите 4–5 минут, затем слить; по этикетке не готовить в микроволновке и не жарить. 265 г — содержимое одной банки после слива. Готовую курицу можно есть холодной или разогреть по этикетке: 2½ минуты при 800 Вт и 1 минуту выдержать; после такого нагрева повторно не разогревать."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "meals": [
+        {
+          "id": "meal-1",
+          "type": "Завтрак",
+          "title": "Несладкая овсянка с cottage cheese и морковью",
+          "image": {
+            "src": "images/day-07-meal-01.jpg",
+            "alt": "Иллюстрация блюда: Несладкая овсянка с cottage cheese и морковью"
+          },
+          "ingredients": [
+            {
+              "productId": "oats",
+              "amount": 60
+            },
+            {
+              "productId": "cottage",
+              "amount": 50
+            },
+            {
+              "productId": "carrot",
+              "amount": 75
+            },
+            {
+              "productId": "paprika",
+              "amount": 1
+            },
+            {
+              "productId": "cumin",
+              "amount": 1
+            },
+            {
+              "productId": "skyr",
+              "amount": 150
+            }
+          ],
+          "instructions": "Овсянку и мелко натёртую морковь приготовить на воде в микроволновке. Вмешать cottage cheese и специи; скир подать отдельно."
+        },
+        {
+          "id": "meal-2",
+          "type": "Обед",
+          "title": "Ростбиф и индейка с картофелем",
+          "image": {
+            "src": "images/day-07-meal-02-satiety.jpg",
+            "alt": "Иллюстрация блюда: Ростбиф и индейка с картофелем"
+          },
+          "ingredients": [
+            {
+              "productId": "beef",
+              "amount": 100
+            },
+            {
+              "productId": "readyturkey",
+              "amount": 130
+            },
+            {
+              "productId": "cucumber",
+              "amount": 75
+            },
+            {
+              "productId": "pepper",
+              "amount": 75
+            },
+            {
+              "productId": "carrot",
+              "amount": 75
+            },
+            {
+              "productId": "lemon",
+              "amount": 7.5
+            },
+            {
+              "productId": "potato",
+              "amount": 265
+            }
+          ],
+          "instructions": "Открыть упаковку ростбифа 100 г и упаковку индейки 130 г. Подать с картофелем и овощным салатом, добавить лимон. Картофель: нагреть в жидкости из банки на плите 4–5 минут, затем слить; по этикетке не готовить в микроволновке и не жарить. 265 г — содержимое одной банки после слива."
+        },
+        {
+          "id": "meal-3",
+          "type": "Ужин",
+          "title": "Чечевица с индейкой и курицей",
+          "image": {
+            "src": "images/day-07-meal-03-satiety.jpg",
+            "alt": "Иллюстрация блюда: Чечевица с индейкой и курицей"
+          },
+          "ingredients": [
+            {
+              "productId": "lentil",
+              "amount": 260
+            },
+            {
+              "productId": "cucumber",
+              "amount": 75
+            },
+            {
+              "productId": "pepper",
+              "amount": 75
+            },
+            {
+              "productId": "lemon",
+              "amount": 7.5
+            },
+            {
+              "productId": "paprika",
+              "amount": 1
+            },
+            {
+              "productId": "cumin",
+              "amount": 1
+            },
+            {
+              "productId": "readyturkey",
+              "amount": 130
+            },
+            {
+              "productId": "cottage",
+              "amount": 50
+            },
+            {
+              "productId": "readychicken",
+              "amount": 120
+            }
+          ],
+          "instructions": "Открыть упаковку индейки и пачку курицы; 120 г курицы оставить на перекус этого же дня. Чечевицу слить и при желании нагреть по этикетке. Cottage cheese смешать с лимоном и специями, подать с птицей, чечевицей и овощами."
+        },
+        {
+          "id": "meal-4",
+          "type": "Перекусы",
+          "title": "Курица с картофелем, скир с фруктами",
+          "image": {
+            "src": "images/day-07-meal-04-satiety.jpg",
+            "alt": "Иллюстрация блюда: Курица с картофелем, скир с фруктами"
+          },
+          "ingredients": [
+            {
+              "productId": "readychicken",
+              "amount": 120
+            },
+            {
+              "productId": "potato",
+              "amount": 265
+            },
+            {
+              "productId": "skyr",
+              "amount": 300
+            },
+            {
+              "productId": "walnut",
+              "amount": 20
+            },
+            {
+              "productId": "apple",
+              "amount": 150
+            },
+            {
+              "productId": "orange",
+              "amount": 150
+            },
+            {
+              "productId": "cinnamon",
+              "amount": 1
+            }
+          ],
+          "instructions": "Курицу с картофелем подать отдельно. Скир, фрукты и орехи с корицей разделить на второй перекус; не смешивать с мясом. Картофель: нагреть в жидкости из банки на плите 4–5 минут, затем слить; по этикетке не готовить в микроволновке и не жарить. 265 г — содержимое одной банки после слива."
+        }
+      ]
+    }
+  ],
+  "portionNote": "Курица для домашней готовки, фарш индейки и брокколи — вес до приготовления. Овсянка — сухой вес. Рис — готовый, бобовые и картофель — без жидкости, фрукты — без кожуры и несъедобных частей. Готовое мясо — вес из упаковки. Все порции указаны в граммах; каши готовить на воде.",
+  "revision": "Оливковое масло исключено из всех блюд без замены. Остальные продукты и их порции сохранены. Дневные КБЖУ пересчитаны; калорийность и жиры стали ниже исходной цели.",
+  "nutritionNote": "БЖУ и калории приблизительные, рассчитаны по этикеткам выбранных продуктов Waitrose. Значения «менее 0,5 г» приняты за 0,25 г. Блюда и день округляются отдельно. Изображения показывают пример подачи; размер порции определяйте по граммовкам.",
+  "sourceNote": "Данные КБЖУ проверены 10 октября 2026 года. Список продуктов обновлён после исключения масла. Фактические сроки годности проверяйте при получении.",
+  "prep": {
+    "duration": "Около 3 часов с уборкой",
+    "note": "Около 5–10 минут активных действий на сборку в день. Нагрев гарнира идёт параллельно нарезке овощей; время зависит от темпа и оборудования.",
+    "equipment": "Духовка, плита, микроволновка, весы и контейнеры.",
+    "steps": [
+      {
+        "time": "00:00–00:20",
+        "title": "Разобрать продукты",
+        "text": "Убрать охлаждённые продукты в холодильник. Проверить use-by и подписать упаковки по дням. Разогреть духовку до 180 °C с конвекцией или 200 °C без неё."
+      },
+      {
+        "time": "00:20–01:00",
+        "title": "Приготовить основу на выходные",
+        "text": "Запечь куриную грудку 600 г до полной готовности, ориентир — 25–30 минут. Использовать закрытую форму или фольгу, при необходимости добавить немного воды. Брокколи 335 г приготовить на пару."
+      },
+      {
+        "time": "01:00–01:20",
+        "title": "Разделить и охладить",
+        "text": "Курицу разделить по готовому весу на три равные части: одну на субботний ужин, по одной на воскресный обед и перекус. Брокколи — пополам. Быстро охладить небольшими порциями и убрать в холодильник в течение двух часов после приготовления."
+      },
+      {
+        "time": "01:20–01:50",
+        "title": "Собрать сухие наборы",
+        "text": "Отвесить овсянку: Сб 40 г, Вс 95 г, Пн 85 г, Вт 20 г, Ср 80 г, Пт 60 г; в четверг овсянки нет. Подготовить 4 порции орехов по 20 г и специи. Йогурт пока не добавлять."
+      },
+      {
+        "time": "01:50–02:15",
+        "title": "Подготовить овощи и рабочее место",
+        "text": "Вымыть и нарезать овощи только на выходные. Овощи на остальные дни оставить целыми. Заводские упаковки готового мяса и консервы не открывать заранее."
+      },
+      {
+        "time": "02:15–02:45",
+        "title": "Сделать чили на обед",
+        "text": "Приготовить 300 г фарша индейки с томатами, красной фасолью и специями из субботнего меню. Начать на антипригарной сковороде с 1 столовой ложкой воды. Съесть горячим сразу: на выбранной индейке указано не разогревать после охлаждения."
+      },
+      {
+        "time": "02:45–03:00",
+        "title": "Завершить уборку",
+        "text": "Подписать время приготовления на контейнерах и убрать кухню. В будни останется открывать упаковки, собирать блюда и нагревать гарниры. Картофель греть на плите, пока нарезаются овощи; несколько порций одного дня можно нагреть вместе."
+      }
+    ]
+  },
+  "storage": {
+    "rules": [
+      {
+        "title": "До 5 °C",
+        "text": "Температура холодильника. Проверяйте срок use-by на день еды."
+      },
+      {
+        "title": "До 48 часов",
+        "text": "Домашние заготовки — только на субботу и воскресенье."
+      },
+      {
+        "title": "Новая упаковка",
+        "text": "Открывайте по графику ниже; начатые порции сразу убирайте в холодильник."
+      }
+    ],
+    "rows": [
+      {
+        "product": "Домашняя курица и брокколи",
+        "when": "Сб–Вс",
+        "note": "Не более 48 часов. Курицу подать холодной — так требует её этикетка."
+      },
+      {
+        "product": "Готовая курица · 9 × 240 г",
+        "when": "Сб–Пт",
+        "note": "Одну пачку: 120 г в субботу вечером и 120 г в воскресенье в пределах 24 часов. Далее: Пн 2 пачки, Вт 2, Ср 1, Чт 2, Пт 1. Открытые порции сразу убрать в холодильник; остальные пачки держать закрытыми до дня еды."
+      },
+      {
+        "product": "Ростбиф · 4 × 100 г",
+        "when": "Вт, Ср, Пт",
+        "note": "Одна упаковка во вторник, две в среду, одна в пятницу. Открывать перед едой."
+      },
+      {
+        "product": "Готовая индейка · 4 × 130 г",
+        "when": "Вс, Пн, Пт",
+        "note": "По одной упаковке в воскресенье и понедельник, две в пятницу. Открывать перед едой."
+      },
+      {
+        "product": "Копчёная индейка · 3 × 80 г",
+        "when": "Ср и Чт",
+        "note": "Одна упаковка в среду, две в четверг. Открывать в день еды."
+      },
+      {
+        "product": "Скир / Fage · по 450 г",
+        "when": "Каждый день",
+        "note": "Одну банку разделить между приёмами пищи того же дня."
+      },
+      {
+        "product": "Картофель · 10 банок",
+        "when": "Сб 2 · Пн 2 · Вт 2 · Ср 1 · Чт 1 · Пт 2",
+        "note": "Закрытые банки хранить в шкафу. Одна банка даёт около 265 г без жидкости. Нагреть в жидкости на плите 4–5 минут и слить. Не жарить и не готовить в микроволновке. Открывать в день еды."
+      },
+      {
+        "product": "Бобовые и готовый рис",
+        "when": "По меню",
+        "note": "Открыть в день еды. Рис — в воскресенье и четверг; после открытия употребить сразу."
+      }
+    ],
+    "details": {
+      "title": "График для cottage cheese: 3 банки по 300 г",
+      "text": "Подпишите банки A–C и дату открытия. После открытия храните не дольше 3 дней и не позже use-by.",
+      "items": [
+        {
+          "label": "Пн",
+          "text": "275 г из A"
+        },
+        {
+          "label": "Вт",
+          "text": "25 г из A + 125 г из B"
+        },
+        {
+          "label": "Ср",
+          "text": "175 г из B + 75 г из C"
+        },
+        {
+          "label": "Чт",
+          "text": "125 г из C"
+        },
+        {
+          "label": "Пт",
+          "text": "100 г из C"
+        }
+      ],
+      "footer": "Все 900 г распределены по меню; остатков не будет."
+    },
+    "note": "Приготовленные продукты охладите небольшими порциями и уберите в холодильник в течение двух часов. Если срок годности упаковки заканчивается раньше запланированного дня, не оставляйте её до этого дня. Овощи на будни храните целыми.",
+    "url": "https://www.food.gov.uk/safety-hygiene/cooking-your-food?ContensisTextOnly=true"
+  },
+  "shopping": {
+    "groups": [
+      {
+        "name": "Мясо и птица",
+        "items": [
+          {
+            "productId": "chicken",
+            "quantity": 1
+          },
+          {
+            "productId": "turkey",
+            "quantity": 1
+          },
+          {
+            "productId": "readychicken",
+            "quantity": 9
+          },
+          {
+            "productId": "beef",
+            "quantity": 4
+          },
+          {
+            "productId": "readyturkey",
+            "quantity": 4
+          },
+          {
+            "productId": "smokedturkey",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "name": "Молочные продукты",
+        "items": [
+          {
+            "productId": "skyr",
+            "quantity": 4
+          },
+          {
+            "productId": "fage",
+            "quantity": 3
+          },
+          {
+            "productId": "cottage",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "name": "Гарниры и бобовые",
+        "items": [
+          {
+            "productId": "basmati",
+            "quantity": 2
+          },
+          {
+            "productId": "oats",
+            "quantity": 1
+          },
+          {
+            "productId": "potato",
+            "quantity": 10
+          },
+          {
+            "productId": "chickpea",
+            "quantity": 2
+          },
+          {
+            "productId": "kidney",
+            "quantity": 1
+          },
+          {
+            "productId": "lentil",
+            "quantity": 1
+          },
+          {
+            "productId": "cannedtomato",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "name": "Овощи, фрукты и ягоды",
+        "items": [
+          {
+            "productId": "blueberry",
+            "quantity": 2
+          },
+          {
+            "productId": "banana",
+            "quantity": 1
+          },
+          {
+            "productId": "apple",
+            "quantity": 1
+          },
+          {
+            "productId": "orange",
+            "quantity": 1
+          },
+          {
+            "productId": "broccoli",
+            "quantity": 1
+          },
+          {
+            "productId": "carrot",
+            "quantity": 1
+          },
+          {
+            "productId": "tomato",
+            "quantity": 2
+          },
+          {
+            "productId": "cucumber",
+            "quantity": 2
+          },
+          {
+            "productId": "pepper",
+            "quantity": 2
+          },
+          {
+            "productId": "lemon",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "name": "Орехи и специи",
+        "items": [
+          {
+            "productId": "walnut",
+            "quantity": 1
+          },
+          {
+            "productId": "pb",
+            "quantity": 1
+          },
+          {
+            "productId": "herbs",
+            "quantity": 1
+          },
+          {
+            "productId": "paprika",
+            "quantity": 1
+          },
+          {
+            "productId": "cumin",
+            "quantity": 1
+          },
+          {
+            "productId": "cinnamon",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "note": "Целые упаковки покрывают все порции. Овсянка, орехи и специи частично останутся на следующую неделю."
+  }
+}

@@ -1,0 +1,39 @@
+import {NUTRIENTS, calculateMeal, calculateDay, resolveResource} from './model.js';
+
+export function renderPlan(document, plan, person, planUrl, locale, today) {
+  const h=(tag,attrs={},...children)=>{
+    const node=document.createElement(tag);
+    for(const [key,value] of Object.entries(attrs)){if(value!==undefined&&value!==false)node.setAttribute(key,value===true?'':String(value));}
+    children.flat(Infinity).forEach(child=>{if(child!==null&&child!==undefined)node.append(typeof child==='object'?child:document.createTextNode(String(child)));});
+    return node;
+  };
+  const number=value=>new Intl.NumberFormat(locale,{maximumFractionDigits:2}).format(value);
+  const fullDate=date=>new Intl.DateTimeFormat(locale,{dateStyle:'full',timeZone:'UTC'}).format(new Date(`${date}T12:00:00Z`));
+  const shortDate=date=>new Intl.DateTimeFormat(locale,{weekday:'short',timeZone:'UTC'}).format(new Date(`${date}T12:00:00Z`));
+  const title=(name,kicker)=>h('div',{class:'section-heading'},h('div',{},h('p',{class:'eyebrow'},kicker),h('h2',{},name)));
+  const macros=value=>h('dl',{class:'macros'},['protein','fat','carbs'].map((key,i)=>h('div',{},h('dt',{},['Белок','Жиры','Углеводы'][i]),h('dd',{},Math.round(value[key]),' ',h('span',{},'г')))));
+  const photo=image=>image?h('figure',{class:'meal-photo'},h('img',{src:resolveResource(image.src,planUrl),alt:image.alt,width:1536,height:1024,loading:'lazy',decoding:'async'})):null;
+  const original=(key,controlId,label)=>{
+    const product=plan.products[key];
+    return h('div',{class:'ingredient-name'},h('span',{},label??product.name),h('button',{class:'ingredient-info',type:'button','aria-expanded':'false','aria-controls':controlId,'aria-label':`Название на английском: ${label??product.name}`,title:'Название на английском'},h('span',{'aria-hidden':'true'},'ⓘ')),h('span',{class:'ingredient-original',id:controlId,hidden:true},h('span',{class:'ingredient-original-label'},'Оригинальное название'),h('span',{lang:'en'},product.originalName)));
+  };
+  const mealCard=(meal,day,index)=>{
+    const nutrition=calculateMeal(meal,plan.products);
+    return h('article',{class:'meal-card'},photo(meal.image),h('div',{class:'meal-top'},h('span',{class:'meal-kind'},h('span',{class:'meal-number'},String(index+1).padStart(2,'0')),meal.type),h('span',{class:'meal-energy'},'≈ ',Math.round(nutrition.kcal),' ',h('span',{},'ккал'))),h('h3',{},meal.title),macros(nutrition),h('ul',{class:'ingredients'},meal.ingredients.map((item,i)=>h('li',{},original(item.productId,`ingredient-${day.date}-${meal.id}-${i}`),h('strong',{},number(item.amount),' ',h('span',{},plan.products[item.productId].unit==='ml'?'мл':'г'))))),h('details',{class:'recipe'},h('summary',{},'Приготовление',h('span',{class:'plus','aria-hidden':'true'},'+')),h('p',{},meal.instructions)));
+  };
+  const days=[...plan.days].sort((a,b)=>a.date.localeCompare(b.date));
+  const values=days.map(day=>calculateDay(day,plan.products));
+  const avg=Object.fromEntries(NUTRIENTS.map(key=>[key,values.reduce((sum,v)=>sum+v[key],0)/days.length]));
+  const intro=h('section',{class:`intro ${plan.hero?'':'intro-no-photo'}`,'aria-labelledby':'page-title'},h('div',{class:'intro-copy'},h('p',{class:'eyebrow'},person.name,' · ',fullDate(days[0].date),' — ',fullDate(days.at(-1).date)),h('h1',{id:'page-title'},plan.title),plan.description?h('p',{class:'intro-description'},plan.description):null,h('div',{class:'plan-facts'},(plan.facts??[]).map(f=>h('span',{},h('b',{},f.value),' ',f.label)))),plan.hero?h('figure',{class:'intro-photo'},h('img',{src:resolveResource(plan.hero.src,planUrl),alt:plan.hero.alt,width:1536,height:1024}),h('figcaption',{},'Иллюстрация подачи')):null);
+  const stats=h('section',{class:'weekly-stats','aria-label':'Средние показатели за день'},NUTRIENTS.map((key,i)=>h('div',{class:i===0?'energy-stat':''},h('span',{},['В среднем за день','Белок','Жиры','Углеводы'][i]),h('strong',{},Math.round(avg[key]),' ',h('small',{},i===0?'ккал':'г')))),h('p',{},`${days.length} дней · ${person.name}`));
+  const menu=h('section',{id:'menu',class:'menu-section','aria-label':'Меню по дням'},h('div',{class:'week-tabs',role:'tablist','aria-label':'Выберите день недели',style:`--day-count:${days.length}`},days.map((day,i)=>h('button',{id:`day-tab-${day.date}`,class:'day-tab',type:'button',role:'tab','aria-selected':'false','aria-controls':`day-panel-${day.date}`,tabindex:-1,'data-date':day.date,'aria-label':`${fullDate(day.date)}${day.date===today?', сегодня':''}`},h('span',{},shortDate(day.date)),h('strong',{},Number(day.date.slice(-2))),h('small',{},`${Math.round(values[i].kcal)} ккал`)))),h('p',{id:'day-status',class:'sr-only','aria-live':'polite','aria-atomic':'true'}),days.map((day,i)=>h('section',{id:`day-panel-${day.date}`,class:'day-panel',role:'tabpanel','aria-labelledby':`day-tab-${day.date}`,tabindex:0,'data-date':day.date,hidden:true},h('div',{class:'day-heading'},h('div',{},h('p',{class:'eyebrow'},`День ${i+1} из ${days.length}`),h('h2',{},fullDate(day.date))),h('div',{class:'day-nutrition'},h('div',{class:'day-energy'},Math.round(values[i].kcal),h('span',{},'ккал за день')),macros(values[i]))),h('div',{class:'meals-grid'},day.meals.map((meal,index)=>mealCard(meal,day,index))))));
+  const notes=h('aside',{class:'weights-note'},plan.revision?h('p',{},plan.revision):null,plan.portionNote?h('strong',{},'Как читать порции'):null,plan.portionNote?h('p',{},plan.portionNote):null,plan.nutritionNote?h('p',{class:'muted'},plan.nutritionNote):null);
+  const sections=[intro,stats,menu,notes];
+  if(plan.prep){const p=plan.prep;sections.push(h('section',{id:'prep',class:'content-section'},title('Заготовка','Приготовление'),h('div',{class:'prep-layout'},h('div',{class:'prep-side'},h('strong',{class:'prep-duration'},p.duration),h('p',{},p.note??''),h('div',{class:'equipment'},h('strong',{},'Что понадобится'),h('p',{},p.equipment))),h('ol',{class:'timeline'},p.steps.map(step=>h('li',{},h('span',{class:'step-time'},step.time),h('div',{},h('h3',{},step.title),h('p',{},step.text))))))));}
+  if(plan.storage){const s=plan.storage;const section=h('section',{id:'storage',class:'content-section'},title('Что и когда открывать','Хранение'),h('div',{class:'storage-rules'},s.rules.map(row=>h('div',{},h('strong',{},row.title),h('p',{},row.text)))),h('div',{class:'table-scroll'},h('table',{class:'storage-table'},h('thead',{},h('tr',{},['Продукт','Когда','Как хранить'].map(t=>h('th',{},t)))),h('tbody',{},s.rows.map(row=>h('tr',{},h('th',{scope:'row'},row.product),h('td',{},row.when),h('td',{},row.note)))))));
+    if(s.details){const d=s.details;section.append(h('details',{class:'cottage-details'},h('summary',{},d.title,h('span',{class:'plus','aria-hidden':'true'},'+')),h('p',{},d.text),h('ul',{},d.items.map(row=>h('li',{},h('strong',{},row.label),h('span',{},row.text)))),d.footer?h('p',{},d.footer):null));}
+    if(s.note)section.append(h('p',{class:'source-note'},s.note,' ',s.url?h('a',{href:resolveResource(s.url,planUrl),target:'_blank',rel:'noopener noreferrer'},'Рекомендации по хранению'):null));sections.push(section);
+  }
+  if(plan.shopping){const s=plan.shopping;sections.push(h('section',{id:'shopping',class:'content-section shopping-section'},title('Список продуктов','На весь рацион'),s.note?h('p',{class:'shopping-intro'},s.note):null,h('div',{class:'shop-groups'},s.groups.map((group,index)=>h('details',{class:'shop-group'},h('summary',{},group.name,h('span',{},`${group.items.length} позиций `,h('b',{'aria-hidden':'true'},'+'))),h('ul',{},group.items.map(item=>h('li',{},original(item.productId,`shopping-${index}-${item.productId}`,plan.products[item.productId].name.split(', вес')[0]),h('strong',{},item.quantity,' × ',plan.products[item.productId].packageSize??'упаковка'))))))),plan.sourceNote?h('p',{class:'source-note'},plan.sourceNote):null));}
+  return sections;
+}

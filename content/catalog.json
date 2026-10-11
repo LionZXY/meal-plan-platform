@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "locale": "ru-RU",
+  "timeZone": "Europe/London",
+  "people": [
+    {
+      "id": "nikita",
+      "name": "Никита",
+      "plans": [
+        {
+          "id": "nikita-2026-10-10",
+          "title": "Рацион на 10–16 октября",
+          "startDate": "2026-10-10",
+          "endDate": "2026-10-16",
+          "file": "plans/nikita-2026-10-10/plan.json"
+        }
+      ]
+    },
+    {
+      "id": "nastya",
+      "name": "Настя",
+      "plans": []
+    }
+  ]
+}
