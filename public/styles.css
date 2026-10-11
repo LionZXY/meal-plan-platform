@@ -43,7 +43,7 @@ select:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
 .brand-mark{width:30px;height:30px;font-size:21px;margin-right:8px}
 .header-inner nav{min-width:0;gap:18px;flex-wrap:nowrap;overflow-x:auto}
 .header-inner nav a{display:flex;align-items:center;min-height:32px;flex:none;white-space:nowrap;font-size:13px}
-.viewer-controls{align-items:center;gap:8px;padding-block:12px 4px}
+.viewer-controls{align-items:center;gap:8px;margin-top:32px;border-top:1px solid var(--line);padding-block:20px 4px}
 .selector-field{min-width:120px}
 .selector-field label{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 .calendar-status{margin-top:0}
@@ -64,7 +64,7 @@ select:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
   .brand-mark{width:28px;height:28px;font-size:20px;margin-right:6px}
   .header-inner nav{width:auto;justify-content:start;gap:14px}
   .header-inner nav a{font-size:12px}
-  .viewer-controls{gap:8px;padding-block:10px 2px}
+  .viewer-controls{gap:8px;padding-block:18px 2px}
   .calendar-status{font-size:12px;line-height:1.4}
   .plan-overview>summary{gap:12px;padding:10px 0}
   .plan-overview h1{font-size:21px;letter-spacing:-.4px}

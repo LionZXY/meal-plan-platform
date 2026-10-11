@@ -10,16 +10,16 @@
 <a class="skip-link" href="#menu">К меню</a>
 <header class="site-header"><div class="wrap header-inner"><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">7</span>семь дней<span class="brand-dot">.</span></a><nav id="plan-nav" aria-label="Разделы" hidden><a href="#menu">Меню</a><a href="#prep">Заготовка</a><a href="#storage">Хранение</a><a href="#shopping">Продукты</a></nav></div></header>
 <main id="top" class="wrap">
+  <div id="status" class="viewer-status" role="status" aria-live="polite">Загрузка рационов…</div>
+  <button id="retry" class="today-button" type="button" hidden>Попробовать снова</button>
+  <div id="plan-root" aria-busy="true"></div>
+  <noscript><p class="viewer-status">Для просмотра рационов включите JavaScript в браузере.</p></noscript>
   <div class="viewer-controls" aria-label="Выбор рациона">
     <div class="selector-field"><label for="person-select">Для кого</label><select id="person-select" disabled></select></div>
     <div id="plan-field" class="selector-field" hidden><label for="plan-select">Рацион</label><select id="plan-select"></select></div>
     <button id="today" class="today-button" type="button" disabled>Сегодня</button>
     <span id="calendar-status" class="calendar-status" aria-live="polite"></span>
   </div>
-  <div id="status" class="viewer-status" role="status" aria-live="polite">Загрузка рационов…</div>
-  <button id="retry" class="today-button" type="button" hidden>Попробовать снова</button>
-  <div id="plan-root" aria-busy="true"></div>
-  <noscript><p class="viewer-status">Для просмотра рационов включите JavaScript в браузере.</p></noscript>
 </main>
 <footer class="wrap footer"><span class="footer-brand">семь дней.</span><p>Меню, порции и приготовление</p><a href="#top">К началу</a></footer>
 </body></html>
