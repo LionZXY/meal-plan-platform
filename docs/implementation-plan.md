@@ -14,12 +14,16 @@
 
 ## Tasks
 
-- [ ] 1. Write fixtures for both people and tests for nutrition, date selection, catalog/plan validation and resource resolution. Run RED; implement `src/model.js`; run GREEN.
-- [ ] 2. Migrate current public content into `content/catalog.json` and `content/plans/nikita-2026-10-10/`. Write migration verification and content validator. Require all meal totals and quantities to match the legacy data; verify all local images exist.
-- [ ] 3. Write DOM integration tests for booting on today's date, switching/restoring profiles, icon disclosure, data-only menu changes, load failure/retry and request races. Run RED; implement `src/render.js`, `src/app.js` and `public/index.html`; run GREEN. Preserve existing visual styles and test in the real browser.
-- [ ] 4. Implement build and preview scripts, data authoring documentation and `.agents/skills/add-meal-plan/SKILL.md`. Add a sample plan, JSON schemas and validate the skill. Add CI checks and official GitHub Pages deployment workflow; verify the packaged project subpath and exclusion of tests/source/private files from `dist/`.
-- [ ] 5. Run the full suite and build. Conduct an independent review of the whole change, address significant findings with regression tests. Publish the existing Site and an explicitly sanitized GitHub repository, enable Pages and verify the successful Actions deployment.
+- [x] 1. Write fixtures for both people and tests for nutrition, date selection, catalog/plan validation and resource resolution. Run RED; implement `src/model.js`; run GREEN.
+- [x] 2. Migrate current public content into `content/catalog.json` and `content/plans/nikita-2026-10-10/`. Write migration verification and content validator. Require all meal totals and quantities to match the legacy data; verify all local images exist.
+- [x] 3. Write DOM integration tests for booting on today's date, switching/restoring profiles, icon disclosure, data-only menu changes, load failure/retry and request races. Run RED; implement `src/render.js`, `src/app.js` and `public/index.html`; run GREEN. Preserve existing visual styles and test in the real browser.
+- [x] 4. Implement build and preview scripts, data authoring documentation and `.agents/skills/add-meal-plan/SKILL.md`. Add a sample plan, JSON schemas and validate the skill. Add CI checks and official GitHub Pages deployment workflow; verify the packaged project subpath and exclusion of tests/source/private files from `dist/`.
+- [x] 5. Run the full suite and build. Conduct an independent review of the whole change, address significant findings with regression tests. Publish the existing Site and an explicitly sanitized GitHub repository, enable Pages and verify the successful Actions deployment.
 
 ## Completion evidence
 
 Record final tests, content validation, browser checks and deployment URLs in README/turn output. Any remaining external permission failure must be reported separately from completed local implementation.
+
+Verified locally: 21/21 tests; all production content and 29 images valid; both independent review findings reproduced and fixed with regression tests. Browser checks: October 11 selected by default, profile persistence after reload, Today button, original names, 390px layout and project subpath.
+
+GitHub Actions run 38132073203 passed checks and deployed successfully. Public HTTPS endpoint verified: https://kulikov.uk/meal-plan-platform/. Original Sites URL forwards to the GitHub Pages platform.
