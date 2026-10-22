@@ -19,7 +19,8 @@ export function renderPlan(document, plan, person, planUrl, locale, today) {
   };
   const mealCard=(meal,day,index)=>{
     const nutrition=calculateMeal(meal,plan.products);
-    return h('article',{class:'meal-card'},photo(meal.image),h('div',{class:'meal-top'},h('span',{class:'meal-kind'},h('span',{class:'meal-number'},String(index+1).padStart(2,'0')),meal.type),h('span',{class:'meal-energy'},'≈ ',Math.round(nutrition.kcal),' ',h('span',{},'ккал'))),h('h3',{},meal.title),macros(nutrition),h('ul',{class:'ingredients'},meal.ingredients.map((item,i)=>h('li',{},original(item.productId,`ingredient-${day.date}-${meal.id}-${i}`),h('strong',{},number(item.amount),' ',h('span',{},plan.products[item.productId].unit==='ml'?'мл':'г'))))),h('details',{class:'recipe'},h('summary',{},'Приготовление',h('span',{class:'plus','aria-hidden':'true'},'+')),h('p',{},meal.instructions)));
+    const sharedNote=meal.sharedPrepNote?h('p',{class:'meal-shared-note'},h('strong',{},meal.sharedPrepNote),h('span',{},'Готовьте вместе, порции по каждому рациону.')):null;
+    return h('article',{class:'meal-card'},photo(meal.image),h('div',{class:'meal-top'},h('span',{class:'meal-kind'},h('span',{class:'meal-number'},String(index+1).padStart(2,'0')),meal.type),h('span',{class:'meal-energy'},'≈ ',Math.round(nutrition.kcal),' ',h('span',{},'ккал'))),h('h3',{},meal.title),sharedNote,macros(nutrition),h('ul',{class:'ingredients'},meal.ingredients.map((item,i)=>h('li',{},original(item.productId,`ingredient-${day.date}-${meal.id}-${i}`),h('strong',{},number(item.amount),' ',h('span',{},plan.products[item.productId].unit==='ml'?'мл':'г'))))),h('details',{class:'recipe'},h('summary',{},'Приготовление',h('span',{class:'plus','aria-hidden':'true'},'+')),h('p',{},meal.instructions)));
   };
   const days=[...plan.days].sort((a,b)=>a.date.localeCompare(b.date));
   const values=days.map(day=>calculateDay(day,plan.products));

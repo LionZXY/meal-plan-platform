@@ -94,6 +94,7 @@ export function validatePlan(plan, entry, personId) {
     date(day.date, 'day.date'); array(day.meals, 'day.meals', 1); unique(day.meals.map(m => m.id), `meal IDs ${day.date}`);
     for (const meal of day.meals) {
       id(meal.id, 'meal.id'); text(meal.type, 'meal.type'); text(meal.title, 'meal.title'); text(meal.instructions, 'meal.instructions'); image(meal.image, 'meal.image');
+      optionalText(meal.sharedPrepNote, 'meal.sharedPrepNote');
       array(meal.ingredients, 'meal.ingredients', 1);
       for (const ingredient of meal.ingredients) {
         requireValue(Object.hasOwn(plan.products, ingredient.productId), `Unknown product: ${ingredient.productId}`);

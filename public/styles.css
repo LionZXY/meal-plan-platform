@@ -7,6 +7,10 @@
 
 /* Per-meal editorial illustrations. */
 .meal-photo{margin:-25px -26px 23px;background:#eef0f3}.meal-photo img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}.meal-card{padding-top:25px}@media(max-width:900px){.meal-photo{margin-inline:-20px}}@media(max-width:620px){.meal-card{padding-top:21px}.meal-photo{margin-top:-21px;margin-bottom:21px}}@media print{.meal-photo{display:none!important}}
+/* Shared preparation notes stay visible outside recipe details. */
+.meal-shared-note{display:grid;gap:3px;margin:0 0 18px;padding:12px 14px;border:1px solid #cbded0;border-radius:9px;background:#eff7ee;color:#28523c;font-size:13px;line-height:1.45}
+.meal-shared-note strong{font-weight:600;font-size:14px}
+.meal-shared-note span{color:#45624f}
 /* Ingredient names: a compact, keyboard-accessible inline disclosure. */
 .ingredient-name{min-width:0;overflow-wrap:anywhere}
 .ingredient-info{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;margin:-6px 0 -6px 3px;padding:0;vertical-align:middle;border:0;border-radius:50%;background:transparent;color:var(--muted)}
