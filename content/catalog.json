@@ -13,13 +13,28 @@
           "startDate": "2026-10-10",
           "endDate": "2026-10-16",
           "file": "plans/nikita-2026-10-10/plan.json"
+        },
+        {
+          "id": "nikita-2026-10-26",
+          "title": "Рацион на 26–30 октября",
+          "startDate": "2026-10-26",
+          "endDate": "2026-10-30",
+          "file": "plans/nikita-2026-10-26/plan.json"
         }
       ]
     },
     {
       "id": "nastya",
       "name": "Настя",
-      "plans": []
+      "plans": [
+        {
+          "id": "nastya-2026-10-26",
+          "title": "Рацион на 26–30 октября",
+          "startDate": "2026-10-26",
+          "endDate": "2026-10-30",
+          "file": "plans/nastya-2026-10-26/plan.json"
+        }
+      ]
     }
   ]
 }

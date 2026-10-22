@@ -1,0 +1,1416 @@
+{
+  "schemaVersion": 1,
+  "id": "nikita-2026-10-26",
+  "personId": "nikita",
+  "title": "Рацион на 26–30 октября",
+  "description": "Никита: общий стол на двоих, разные порции. Около 1600 ккал в день. Без добавленного масла, без вареной рыбы, тофу, киноа и креветок. Одна большая заготовка и короткая сборка в остальные дни.",
+  "revision": "Цель Никиты: 1600 ккал. Исходное соотношение 235:97,5:200 пересчитывается примерно в 144 г белка, 60 г жира и 122 г углеводов по формуле 4/9/4. Здесь приоритет у 1600 ккал по этикеткам, соотношение сохранено приблизительно.",
+  "portionNote": "Все граммовки относятся к одному человеку. Накладывайте обе порции одновременно. Курица и индейка указаны сырыми, готовая птица, ростбиф и лосось — готовыми. Овсянка указана сухой. Бобовые взвешиваются без жидкости, фрукты и авокадо — без несъедобных частей. Овощи указаны до приготовления. После запекания не используйте граммовки сырого мяса как граммовки готового. Вода для каши и соусов не учитывается. Соль дополнительно не нужна.",
+  "nutritionNote": "Калории рассчитаны по этикеткам, включая их учет клетчатки. Поэтому сумма Б×4 + Ж×9 + У×4 не обязана совпадать с калориями на этикетке. Для значений «<0,5 г» принято 0,25 г, «<0,2 г» — 0,1 г, «<0,1 г» — 0,05 г. Значения округлены и не обещают лабораторную точность. Tabasco содержит 11–16 ккал на 100 мл, Heinz Zero — 40 ккал на 100 г. Это низкокалорийные соусы, а не буквально zero-cal. Все их порции учтены.",
+  "sourceNote": "КБЖУ, состав и товары получены 22 октября 2026 года через LionZXY/waitrose-mcp из действующего каталога Waitrose. Продуктовые ссылки приведены в данных. Наличие дополнительно проверяется в корзине для выбранного слота. Реальные сроки годности известны только при доставке. Рекомендации по хранению: Food Standards Agency, Student guide to food safety and hygiene. Изображение создано встроенным imagegen и показывает пример подачи, а не точные порции.",
+  "hero": {
+    "src": "images/hero.png",
+    "alt": "Иллюстрация общей подачи: две порции курицы с овощами и картофелем, скир с ягодами. Точные граммовки указаны в меню."
+  },
+  "facts": [
+    {
+      "value": "5 дней",
+      "label": "26–30 октября"
+    },
+    {
+      "value": "2 ч 45 мин",
+      "label": "одна большая заготовка"
+    },
+    {
+      "value": "Без морозилки",
+      "label": "с учетом сроков упаковок"
+    },
+    {
+      "value": "20 блюд",
+      "label": "общая подача на двоих"
+    }
+  ],
+  "products": {
+    "chicken": {
+      "name": "Куриная грудка, сырой вес",
+      "originalName": "Waitrose Slower Reared 2 Chicken Breast Fillets",
+      "unit": "g",
+      "packageSize": "380g",
+      "nutritionPer100": {
+        "kcal": 107.0,
+        "protein": 22.9,
+        "fat": 1.6,
+        "carbs": 0.25
+      },
+      "url": "https://www.waitrose.com/ecom/products/waitrose-slower-reared-2-chicken-breast-fillets/690849-260860-260861"
+    },
+    "turkey": {
+      "name": "Фарш индейки, сырой вес",
+      "originalName": "Essential 3% Fat British Turkey Breast Mince",
+      "unit": "g",
+      "packageSize": "300g",
+      "nutritionPer100": {
+        "kcal": 115.0,
+        "protein": 23.5,
+        "fat": 2.0,
+        "carbs": 0.25
+      },
+      "url": "https://www.waitrose.com/ecom/products/essential-3-fat-british-turkey-breast-mince/784500-586844-586845"
+    },
+    "readychicken": {
+      "name": "Запеченная куриная грудка, готовый вес",
+      "originalName": "Waitrose Cooked Roast Chicken Breast Fillets 2",
+      "unit": "g",
+      "packageSize": "2 филе, примерно 240 г; вес переменный",
+      "nutritionPer100": {
+        "kcal": 156.0,
+        "protein": 25.6,
+        "fat": 5.2,
+        "carbs": 1.6
+      },
+      "url": "https://www.waitrose.com/ecom/products/waitrose-cooked-roast-chicken-breast-fillets-2/792711-112765-112766"
+    },
+    "beef": {
+      "name": "Ростбиф, готовый вес",
+      "originalName": "Waitrose British Roast Beef Topside 3 Slices",
+      "unit": "g",
+      "packageSize": "100g",
+      "nutritionPer100": {
+        "kcal": 134.0,
+        "protein": 25.8,
+        "fat": 3.3,
+        "carbs": 0.25
+      },
+      "url": "https://www.waitrose.com/ecom/products/waitrose-british-roast-beef-topside-3-slices/426316-156489-156490"
+    },
+    "salmon": {
+      "name": "Лосось горячего копчения, готовый вес",
+      "originalName": "No.1 2 Scottish Double-Smoked Salmon Fillets",
+      "unit": "g",
+      "packageSize": "160g",
+      "nutritionPer100": {
+        "kcal": 194.0,
+        "protein": 23.8,
+        "fat": 10.7,
+        "carbs": 0.5
+      },
+      "url": "https://www.waitrose.com/ecom/products/no-1-2-scottish-double-smoked-salmon-fillets/386471-1-2"
+    },
+    "skyr": {
+      "name": "Skyr натуральный",
+      "originalName": "Arla Skyr Natural Icelandic Style Yogurt",
+      "unit": "g",
+      "packageSize": "450g",
+      "nutritionPer100": {
+        "kcal": 60.0,
+        "protein": 10.0,
+        "fat": 0.1,
+        "carbs": 4.0
+      },
+      "url": "https://www.waitrose.com/ecom/products/arla-skyr-natural-icelandic-style-yogurt/836769-437896-437897"
+    },
+    "cottage": {
+      "name": "Зерненый творог без жира",
+      "originalName": "Essential Fat Free Cottage Cheese",
+      "unit": "g",
+      "packageSize": "300g",
+      "nutritionPer100": {
+        "kcal": 58.0,
+        "protein": 10.2,
+        "fat": 0.25,
+        "carbs": 3.7
+      },
+      "url": "https://www.waitrose.com/ecom/products/essential-fat-free-cottage-cheese/402717-324728-324729"
+    },
+    "oats": {
+      "name": "Овсяные хлопья, сухой вес",
+      "originalName": "Essential Porridge Oats",
+      "unit": "g",
+      "packageSize": "1kg",
+      "nutritionPer100": {
+        "kcal": 372.0,
+        "protein": 12.2,
+        "fat": 7.3,
+        "carbs": 59.5
+      },
+      "url": "https://www.waitrose.com/ecom/products/essential-porridge-oats/001224-164-165"
+    },
+    "walnut": {
+      "name": "Грецкие орехи",
+      "originalName": "Waitrose Walnut Pieces",
+      "unit": "g",
+      "packageSize": "200g",
+      "nutritionPer100": {
+        "kcal": 667.0,
+        "protein": 18.2,
+        "fat": 60.0,
+        "carbs": 11.4
+      },
+      "url": "https://www.waitrose.com/ecom/products/waitrose-walnut-pieces/006821-3067-3068"
+    },
+    "pb": {
+      "name": "Паста из 100% арахиса",
+      "originalName": "Waitrose 100% Peanuts Smooth Peanut Butter",
+      "unit": "g",
+      "packageSize": "340g",
+      "nutritionPer100": {
+        "kcal": 618.0,
+        "protein": 29.0,
+        "fat": 49.4,
+        "carbs": 11.0
+      },
+      "url": "https://www.waitrose.com/ecom/products/waitrose-100-peanuts-smooth-peanut-butter/966737-847323-847324"
+    },
+    "pitta": {
+      "name": "Цельнозерновая пита",
+      "originalName": "Waitrose 6 Wholemeal Pittas",
+      "unit": "g",
+      "packageSize": "6 шт., около 360 г",
+      "nutritionPer100": {
+        "kcal": 231.0,
+        "protein": 9.9,
+        "fat": 1.1,
+        "carbs": 40.8
+      },
+      "url": "https://www.waitrose.com/ecom/products/waitrose-6-wholemeal-pittas/759158-769636-769637"
+    },
+    "rye": {
+      "name": "Ржаные хлебцы",
+      "originalName": "Ryvita Crispbread Original Crackers",
+      "unit": "g",
+      "packageSize": "250g",
+      "nutritionPer100": {
+        "kcal": 355.0,
+        "protein": 10.5,
+        "fat": 1.1,
+        "carbs": 69.0
+      },
+      "url": "https://www.waitrose.com/ecom/products/ryvita-crispbread-original-crackers/042970-21228-21229"
+    },
+    "lentils": {
+      "name": "Чечевица, вес без жидкости",
+      "originalName": "Essential Lentils in Water",
+      "unit": "g",
+      "packageSize": "400 г, примерно 260 г без жидкости",
+      "nutritionPer100": {
+        "kcal": 68.0,
+        "protein": 4.9,
+        "fat": 0.25,
+        "carbs": 10.7
+      },
+      "url": "https://www.waitrose.com/ecom/products/essential-lentils-in-water/019543-9473-9474"
+    },
+    "chickpeas": {
+      "name": "Нут, вес без жидкости",
+      "originalName": "Essential Chickpeas in Water",
+      "unit": "g",
+      "packageSize": "400 г, примерно 240 г без жидкости",
+      "nutritionPer100": {
+        "kcal": 118.0,
+        "protein": 6.6,
+        "fat": 2.4,
+        "carbs": 14.6
+      },
+      "url": "https://www.waitrose.com/ecom/products/essential-chickpeas-in-water/421437-805739-805740"
+    },
+    "beans": {
+      "name": "Белая фасоль, вес без жидкости",
+      "originalName": "Essential Cannellini Beans",
+      "unit": "g",
+      "packageSize": "400 г, примерно 240 г без жидкости",
+      "nutritionPer100": {
+        "kcal": 90.0,
+        "protein": 6.2,
+        "fat": 0.6,
+        "carbs": 12.1
+      },
+      "url": "https://www.waitrose.com/ecom/products/essential-cannellini-beans/584333-805769-805770"
+    },
+    "passata": {
+      "name": "Томатная пассата",
+      "originalName": "Essential Passata",
+      "unit": "g",
+      "packageSize": "680g",
+      "nutritionPer100": {
+        "kcal": 28.0,
+        "protein": 1.5,
+        "fat": 0.25,
+        "carbs": 4.3
+      },
+      "url": "https://www.waitrose.com/ecom/products/essential-passata/827066-230035-230036"
+    },
+    "avocado": {
+      "name": "Авокадо, мякоть",
+      "originalName": "Waitrose Perfectly Ripe & Home Ripen Avocados",
+      "unit": "g",
+      "packageSize": "2 шт.: спелый и дозревающий, примерно 200–250 г мякоти",
+      "nutritionPer100": {
+        "kcal": 198.0,
+        "protein": 1.9,
+        "fat": 19.5,
+        "carbs": 1.9
+      },
+      "url": "https://www.waitrose.com/ecom/products/waitrose-perfectly-ripe-home-ripen-avocados/839147-786384-786385"
+    },
+    "potato": {
+      "name": "Картофель, сырой съедобный вес",
+      "originalName": "Essential British Large Potatoes",
+      "unit": "g",
+      "packageSize": "4 шт., около 1 кг",
+      "nutritionPer100": {
+        "kcal": 84.0,
+        "protein": 2.1,
+        "fat": 0.25,
+        "carbs": 17.2
+      },
+      "url": "https://www.waitrose.com/ecom/products/essential-british-large-potatoes/085024-43126-43127"
+    },
+    "carrot": {
+      "name": "Морковь, сырой съедобный вес",
+      "originalName": "Essential British Carrots",
+      "unit": "g",
+      "packageSize": "1kg",
+      "nutritionPer100": {
+        "kcal": 44.0,
+        "protein": 0.5,
+        "fat": 0.25,
+        "carbs": 7.7
+      },
+      "url": "https://www.waitrose.com/ecom/products/essential-british-carrots/085127-415835-43225"
+    },
+    "pepper": {
+      "name": "Сладкий перец, без семян",
+      "originalName": "Essential Mixed Peppers",
+      "unit": "g",
+      "packageSize": "3 шт., примерно 400 г без семян",
+      "nutritionPer100": {
+        "kcal": 24.0,
+        "protein": 0.8,
+        "fat": 0.25,
+        "carbs": 3.8
+      },
+      "url": "https://www.waitrose.com/ecom/products/essential-mixed-peppers/086410-44116-44117"
+    },
+    "cucumber": {
+      "name": "Огурец",
+      "originalName": "Essential Large Cucumber",
+      "unit": "g",
+      "packageSize": "1 шт., примерно 400 г",
+      "nutritionPer100": {
+        "kcal": 16.0,
+        "protein": 1.0,
+        "fat": 0.6,
+        "carbs": 1.2
+      },
+      "url": "https://www.waitrose.com/ecom/products/essential-large-cucumber/086469-44160-44161"
+    },
+    "tomato": {
+      "name": "Помидоры черри",
+      "originalName": "Essential Cherry Tomatoes",
+      "unit": "g",
+      "packageSize": "400g",
+      "nutritionPer100": {
+        "kcal": 26.0,
+        "protein": 1.1,
+        "fat": 0.5,
+        "carbs": 3.6
+      },
+      "url": "https://www.waitrose.com/ecom/products/essential-cherry-tomatoes/086533-44216-44217"
+    },
+    "blueberry": {
+      "name": "Голубика",
+      "originalName": "Essential Blueberries",
+      "unit": "g",
+      "packageSize": "150g",
+      "nutritionPer100": {
+        "kcal": 45.0,
+        "protein": 0.9,
+        "fat": 0.25,
+        "carbs": 9.1
+      },
+      "url": "https://www.waitrose.com/ecom/products/essential-blueberries/088036-45014-45015"
+    },
+    "apple": {
+      "name": "Яблоко, без сердцевины",
+      "originalName": "Waitrose Royal Gala Apples",
+      "unit": "g",
+      "packageSize": "6 шт., примерно 750 г съедобной части",
+      "nutritionPer100": {
+        "kcal": 55.0,
+        "protein": 0.25,
+        "fat": 0.25,
+        "carbs": 11.8
+      },
+      "url": "https://www.waitrose.com/ecom/products/waitrose-royal-gala-apples/088628-45509-45510"
+    },
+    "banana": {
+      "name": "Банан, без кожуры",
+      "originalName": "Essential Fairtrade Bananas",
+      "unit": "g",
+      "packageSize": "5 шт., примерно 500 г мякоти",
+      "nutritionPer100": {
+        "kcal": 90.0,
+        "protein": 1.2,
+        "fat": 0.25,
+        "carbs": 20.3
+      },
+      "url": "https://www.waitrose.com/ecom/products/essential-fairtrade-bananas/088528-45453-45454"
+    },
+    "cocoa": {
+      "name": "Какао без сахара",
+      "originalName": "Food Thoughts Fairly Traded Organic Cocoa Powder",
+      "unit": "g",
+      "packageSize": "125g",
+      "nutritionPer100": {
+        "kcal": 386.0,
+        "protein": 22.3,
+        "fat": 21.0,
+        "carbs": 12.4
+      },
+      "url": "https://www.waitrose.com/ecom/products/food-thoughts-fairly-traded-organic-cocoa-powder/607756-518944-518945"
+    },
+    "paprika": {
+      "name": "Копченая паприка",
+      "originalName": "Cooks' Ingredients Smoked Paprika",
+      "unit": "g",
+      "packageSize": "40g",
+      "nutritionPer100": {
+        "kcal": 299.0,
+        "protein": 14.1,
+        "fat": 12.9,
+        "carbs": 19.1
+      },
+      "url": "https://www.waitrose.com/ecom/products/cooks-ingredients-smoked-paprika/700918-785052-785053"
+    },
+    "cinnamon": {
+      "name": "Корица",
+      "originalName": "Cooks' Ingredients Cinnamon",
+      "unit": "g",
+      "packageSize": "32g",
+      "nutritionPer100": {
+        "kcal": 243.0,
+        "protein": 4.0,
+        "fat": 1.2,
+        "carbs": 27.5
+      },
+      "url": "https://www.waitrose.com/ecom/products/cooks-ingredients-cinnamon/528453-784900-784901"
+    },
+    "lemon": {
+      "name": "Лимон, мякоть без кожуры и косточек",
+      "originalName": "Essential Lemons",
+      "unit": "g",
+      "packageSize": "5 шт.",
+      "nutritionPer100": {
+        "kcal": 29.0,
+        "protein": 1.0,
+        "fat": 0.3,
+        "carbs": 3.2
+      },
+      "url": "https://www.waitrose.com/ecom/products/essential-lemons/088413-45363-45364"
+    },
+    "red": {
+      "name": "Tabasco красный",
+      "originalName": "Tabasco Pepper Sauce",
+      "unit": "ml",
+      "packageSize": "57ml",
+      "nutritionPer100": {
+        "kcal": 16.0,
+        "protein": 1.0,
+        "fat": 0.7,
+        "carbs": 1.6
+      },
+      "url": "https://www.waitrose.com/ecom/products/tabasco-pepper-sauce/034686-17469-17470"
+    },
+    "green": {
+      "name": "Tabasco зеленый",
+      "originalName": "Tabasco Mild Green Pepper Sauce",
+      "unit": "ml",
+      "packageSize": "57ml",
+      "nutritionPer100": {
+        "kcal": 11.0,
+        "protein": 0.6,
+        "fat": 0.05,
+        "carbs": 1.8
+      },
+      "url": "https://www.waitrose.com/ecom/products/tabasco-mild-green-pepper-sauce/686472-97511-97512"
+    },
+    "ketchup": {
+      "name": "Heinz Tomato Ketchup Zero",
+      "originalName": "Heinz Tomato Ketchup Zero",
+      "unit": "g",
+      "packageSize": "425g",
+      "nutritionPer100": {
+        "kcal": 40.0,
+        "protein": 1.6,
+        "fat": 0.1,
+        "carbs": 5.9
+      },
+      "url": "https://www.waitrose.com/ecom/products/heinz-tomato-ketchup-zero/882955-663310-663311"
+    },
+    "mustard": {
+      "name": "Дижонская горчица",
+      "originalName": "Essential Dijon Mustard",
+      "unit": "g",
+      "packageSize": "180g",
+      "nutritionPer100": {
+        "kcal": 141.0,
+        "protein": 7.0,
+        "fat": 11.0,
+        "carbs": 2.0
+      },
+      "url": "https://www.waitrose.com/ecom/products/essential-dijon-mustard/007637-3578-3579"
+    }
+  },
+  "days": [
+    {
+      "date": "2026-10-26",
+      "meals": [
+        {
+          "id": "breakfast",
+          "type": "Завтрак",
+          "title": "Черничный скир с овсянкой и арахисовой пастой",
+          "ingredients": [
+            {
+              "productId": "skyr",
+              "amount": 105
+            },
+            {
+              "productId": "oats",
+              "amount": 20
+            },
+            {
+              "productId": "blueberry",
+              "amount": 75
+            },
+            {
+              "productId": "pb",
+              "amount": 20
+            }
+          ],
+          "instructions": "В день подачи сварите хлопья на воде по упаковке или заранее замочите их только на одну ночь. Дайте каше немного остыть. Разложите скир, ягоды и арахисовую пасту по двум мискам. Вода не входит в граммовки."
+        },
+        {
+          "id": "lunch",
+          "type": "Обед",
+          "title": "Курица с паприкой, картофелем и томатным соусом",
+          "ingredients": [
+            {
+              "productId": "chicken",
+              "amount": 130
+            },
+            {
+              "productId": "potato",
+              "amount": 125
+            },
+            {
+              "productId": "pepper",
+              "amount": 150
+            },
+            {
+              "productId": "tomato",
+              "amount": 100
+            },
+            {
+              "productId": "ketchup",
+              "amount": 25
+            },
+            {
+              "productId": "red",
+              "amount": 2
+            },
+            {
+              "productId": "paprika",
+              "amount": 1
+            },
+            {
+              "productId": "avocado",
+              "amount": 40
+            }
+          ],
+          "instructions": "В понедельник приготовьте сразу курицу на два дня и картофель на сегодняшний обед. Курицу запекайте на пергаменте под крышкой с небольшим количеством воды, без масла, при 180 °C с конвекцией. Ориентир: 25–30 минут и 75 °C в центре на 30 секунд. Картофель нарежьте дольками и запекайте на отдельном противне до мягкости. Взвешивайте сырые порции заранее. Подайте горячую порцию с перцем, томатами и авокадо. Смешайте кетчуп, Tabasco и немного воды."
+        },
+        {
+          "id": "dinner",
+          "type": "Ужин",
+          "title": "Тефтели из индейки с белой фасолью и томатами",
+          "ingredients": [
+            {
+              "productId": "turkey",
+              "amount": 200
+            },
+            {
+              "productId": "beans",
+              "amount": 70
+            },
+            {
+              "productId": "passata",
+              "amount": 150
+            },
+            {
+              "productId": "carrot",
+              "amount": 150
+            },
+            {
+              "productId": "paprika",
+              "amount": 1
+            },
+            {
+              "productId": "skyr",
+              "amount": 50
+            },
+            {
+              "productId": "walnut",
+              "amount": 15
+            }
+          ],
+          "instructions": "В понедельник сформируйте тефтели на два дня и запеките на пергаменте без масла до 75 °C в центре на 30 секунд. Запеките морковь отдельно, с водой под крышкой. Быстро охладите тефтели и морковь в неглубоких контейнерах. Уберите в холодильник в течение 1–2 часов после приготовления. На ужин подавайте их холодными с фасолью без жидкости, пассатой, скиром и орехами. Этикетка фарша запрещает разогрев после охлаждения. Оставшиеся тефтели предназначены только для вторника."
+        },
+        {
+          "id": "snack",
+          "type": "Перекус",
+          "title": "Зерненый творог с яблоком и грецкими орехами",
+          "ingredients": [
+            {
+              "productId": "cottage",
+              "amount": 170
+            },
+            {
+              "productId": "apple",
+              "amount": 130
+            },
+            {
+              "productId": "walnut",
+              "amount": 30
+            },
+            {
+              "productId": "cinnamon",
+              "amount": 1
+            }
+          ],
+          "instructions": "Нарежьте яблоко перед подачей. Разложите творог по двум мискам, добавьте яблоко, корицу и грецкие орехи."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "meals": [
+        {
+          "id": "breakfast",
+          "type": "Завтрак",
+          "title": "Морковная овсянка с корицей и скиром",
+          "ingredients": [
+            {
+              "productId": "oats",
+              "amount": 20
+            },
+            {
+              "productId": "skyr",
+              "amount": 100
+            },
+            {
+              "productId": "carrot",
+              "amount": 80
+            },
+            {
+              "productId": "walnut",
+              "amount": 30
+            },
+            {
+              "productId": "cinnamon",
+              "amount": 1
+            }
+          ],
+          "instructions": "Варите хлопья и мелко натертую морковь на воде 5–7 минут до мягкости. Добавьте корицу. Скир положите сверху после небольшого остывания. Орехи добавьте перед подачей."
+        },
+        {
+          "id": "lunch",
+          "type": "Обед",
+          "title": "Холодная курица в пите с огуречным соусом",
+          "ingredients": [
+            {
+              "productId": "chicken",
+              "amount": 130
+            },
+            {
+              "productId": "pitta",
+              "amount": 40
+            },
+            {
+              "productId": "cucumber",
+              "amount": 150
+            },
+            {
+              "productId": "tomato",
+              "amount": 100
+            },
+            {
+              "productId": "avocado",
+              "amount": 65
+            },
+            {
+              "productId": "skyr",
+              "amount": 60
+            },
+            {
+              "productId": "green",
+              "amount": 3
+            },
+            {
+              "productId": "lemon",
+              "amount": 10
+            }
+          ],
+          "instructions": "Используйте курицу, приготовленную в понедельник, в течение 48 часов. Подавайте ее холодной: этикетка этой сырой курицы запрещает разогрев после охлаждения. Смешайте скир, мелко рубленую мякоть лимона и Tabasco. Добавьте немного огурца в соус. Наполните питу курицей и овощами. Остальной салат подайте рядом. Если разогреваете питу, прогрейте только хлеб."
+        },
+        {
+          "id": "dinner",
+          "type": "Ужин",
+          "title": "Салат с тефтелями, чечевицей и горчичной заправкой",
+          "ingredients": [
+            {
+              "productId": "turkey",
+              "amount": 200
+            },
+            {
+              "productId": "lentils",
+              "amount": 70
+            },
+            {
+              "productId": "carrot",
+              "amount": 150
+            },
+            {
+              "productId": "pepper",
+              "amount": 150
+            },
+            {
+              "productId": "rye",
+              "amount": 20
+            },
+            {
+              "productId": "mustard",
+              "amount": 5
+            },
+            {
+              "productId": "skyr",
+              "amount": 50
+            },
+            {
+              "productId": "lemon",
+              "amount": 10
+            },
+            {
+              "productId": "walnut",
+              "amount": 10
+            }
+          ],
+          "instructions": "Подавайте тефтели понедельника холодными в пределах 48 часов. Не разогревайте: это ограничение этикетки фарша. Слейте жидкость из только что открытой банки чечевицы. Добавьте холодную запеченную морковь и свежий перец. Смешайте скир, горчицу, рубленую мякоть лимона и воду. Подайте с хлебцами и орехами."
+        },
+        {
+          "id": "snack",
+          "type": "Перекус",
+          "title": "Шоколадно-банановый крем с арахисом",
+          "ingredients": [
+            {
+              "productId": "skyr",
+              "amount": 100
+            },
+            {
+              "productId": "banana",
+              "amount": 90
+            },
+            {
+              "productId": "pb",
+              "amount": 10
+            },
+            {
+              "productId": "cocoa",
+              "amount": 5
+            }
+          ],
+          "instructions": "Разомните банан вилкой и смешайте со скиром, какао и арахисовой пастой. Готовьте непосредственно перед едой."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "meals": [
+        {
+          "id": "breakfast",
+          "type": "Завтрак",
+          "title": "Шоколадная овсянка с бананом",
+          "ingredients": [
+            {
+              "productId": "oats",
+              "amount": 20
+            },
+            {
+              "productId": "skyr",
+              "amount": 100
+            },
+            {
+              "productId": "banana",
+              "amount": 90
+            },
+            {
+              "productId": "pb",
+              "amount": 16
+            },
+            {
+              "productId": "cocoa",
+              "amount": 5
+            }
+          ],
+          "instructions": "Приготовьте хлопья на воде. После небольшого остывания добавьте скир и какао. Сверху положите банан и арахисовую пасту."
+        },
+        {
+          "id": "lunch",
+          "type": "Обед",
+          "title": "Салат с запеченной курицей, чечевицей и хрустящей морковью",
+          "ingredients": [
+            {
+              "productId": "readychicken",
+              "amount": 170
+            },
+            {
+              "productId": "lentils",
+              "amount": 74
+            },
+            {
+              "productId": "carrot",
+              "amount": 150
+            },
+            {
+              "productId": "cucumber",
+              "amount": 150
+            },
+            {
+              "productId": "mustard",
+              "amount": 5
+            },
+            {
+              "productId": "skyr",
+              "amount": 50
+            },
+            {
+              "productId": "walnut",
+              "amount": 10
+            },
+            {
+              "productId": "lemon",
+              "amount": 10
+            }
+          ],
+          "instructions": "Откройте готовую запеченную курицу только сегодня. Взвесьте готовое мясо. Слейте жидкость из чечевицы. Натрите морковь и нарежьте огурец. Смешайте скир, горчицу, рубленую мякоть лимона и воду. Разложите салат, курицу и орехи на две тарелки."
+        },
+        {
+          "id": "dinner",
+          "type": "Ужин",
+          "title": "Пита с курицей, нутом и кремом из авокадо",
+          "ingredients": [
+            {
+              "productId": "readychicken",
+              "amount": 130
+            },
+            {
+              "productId": "chickpeas",
+              "amount": 60
+            },
+            {
+              "productId": "pitta",
+              "amount": 40
+            },
+            {
+              "productId": "avocado",
+              "amount": 40
+            },
+            {
+              "productId": "tomato",
+              "amount": 100
+            },
+            {
+              "productId": "cucumber",
+              "amount": 150
+            },
+            {
+              "productId": "skyr",
+              "amount": 40
+            },
+            {
+              "productId": "green",
+              "amount": 3
+            },
+            {
+              "productId": "lemon",
+              "amount": 10
+            }
+          ],
+          "instructions": "Используйте курицу из упаковок, открытых сегодня. Разомните нут вилкой с авокадо, скиром, лимонной мякотью и Tabasco. Добавьте воду до нужной густоты. Наполните питу курицей и кремом, овощи подайте рядом. Подайте холодным или прогрейте только хлеб."
+        },
+        {
+          "id": "snack",
+          "type": "Перекус",
+          "title": "Яблочный творог с корицей и орехами",
+          "ingredients": [
+            {
+              "productId": "cottage",
+              "amount": 100
+            },
+            {
+              "productId": "apple",
+              "amount": 130
+            },
+            {
+              "productId": "walnut",
+              "amount": 15
+            },
+            {
+              "productId": "cinnamon",
+              "amount": 1
+            }
+          ],
+          "instructions": "Нарежьте яблоко перед подачей. Смешайте творог с корицей. Добавьте яблоко и орехи."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "meals": [
+        {
+          "id": "breakfast",
+          "type": "Завтрак",
+          "title": "Ржаные тосты с творогом и авокадо",
+          "ingredients": [
+            {
+              "productId": "rye",
+              "amount": 20
+            },
+            {
+              "productId": "cottage",
+              "amount": 196
+            },
+            {
+              "productId": "avocado",
+              "amount": 40
+            },
+            {
+              "productId": "cucumber",
+              "amount": 150
+            },
+            {
+              "productId": "green",
+              "amount": 3
+            }
+          ],
+          "instructions": "Разомните авокадо с зеленым Tabasco. Нанесите на хлебцы творог и авокадо, сверху положите огурец. Оставшиеся овощи подайте рядом."
+        },
+        {
+          "id": "lunch",
+          "type": "Обед",
+          "title": "Ростбиф в пите с горчичным соусом",
+          "ingredients": [
+            {
+              "productId": "beef",
+              "amount": 130
+            },
+            {
+              "productId": "pitta",
+              "amount": 40
+            },
+            {
+              "productId": "carrot",
+              "amount": 150
+            },
+            {
+              "productId": "pepper",
+              "amount": 150
+            },
+            {
+              "productId": "skyr",
+              "amount": 60
+            },
+            {
+              "productId": "mustard",
+              "amount": 5
+            },
+            {
+              "productId": "walnut",
+              "amount": 15
+            }
+          ],
+          "instructions": "Откройте две упаковки ростбифа непосредственно перед подачей. Смешайте скир, горчицу и немного воды. Наполните питу мясом, тертой морковью и перцем. Соус и орехи распределите по двум порциям. Подавайте ростбиф холодным."
+        },
+        {
+          "id": "dinner",
+          "type": "Ужин",
+          "title": "Ржаные тосты с лососем горячего копчения и огуречным кремом",
+          "ingredients": [
+            {
+              "productId": "salmon",
+              "amount": 100
+            },
+            {
+              "productId": "rye",
+              "amount": 20
+            },
+            {
+              "productId": "cucumber",
+              "amount": 200
+            },
+            {
+              "productId": "cottage",
+              "amount": 195
+            },
+            {
+              "productId": "lemon",
+              "amount": 10
+            },
+            {
+              "productId": "walnut",
+              "amount": 25
+            }
+          ],
+          "instructions": "Откройте упаковку из двух филе лосося горячего копчения и используйте 160 г на двоих. Разделите рыбу вилкой на кусочки. Подавайте ее холодной. Смешайте творог с мелко рубленой мякотью лимона и частью огурца. Нанесите крем на хлебцы, добавьте лосося. Оставшийся огурец и орехи подайте рядом. Дополнительная соль не нужна."
+        },
+        {
+          "id": "snack",
+          "type": "Перекус",
+          "title": "Скир с яблоком и арахисовой пастой",
+          "ingredients": [
+            {
+              "productId": "skyr",
+              "amount": 100
+            },
+            {
+              "productId": "apple",
+              "amount": 175
+            },
+            {
+              "productId": "pb",
+              "amount": 10
+            },
+            {
+              "productId": "cinnamon",
+              "amount": 1
+            }
+          ],
+          "instructions": "Нарежьте яблоко непосредственно перед подачей. Разложите скир и яблоко по двум мискам. Добавьте арахисовую пасту и корицу."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "meals": [
+        {
+          "id": "breakfast",
+          "type": "Завтрак",
+          "title": "Несладкая овсянка с творогом, перцем и паприкой",
+          "ingredients": [
+            {
+              "productId": "oats",
+              "amount": 20
+            },
+            {
+              "productId": "cottage",
+              "amount": 142
+            },
+            {
+              "productId": "pepper",
+              "amount": 150
+            },
+            {
+              "productId": "walnut",
+              "amount": 15
+            },
+            {
+              "productId": "paprika",
+              "amount": 1
+            },
+            {
+              "productId": "ketchup",
+              "amount": 20
+            }
+          ],
+          "instructions": "Приготовьте хлопья на воде. Добавьте творог и паприку после небольшого остывания. Подавайте с нарезанным перцем, орехами и кетчупом. Готовьте только порции на текущий завтрак."
+        },
+        {
+          "id": "lunch",
+          "type": "Обед",
+          "title": "Курица сатай с хрустящими овощами и питой",
+          "ingredients": [
+            {
+              "productId": "readychicken",
+              "amount": 170
+            },
+            {
+              "productId": "pitta",
+              "amount": 40
+            },
+            {
+              "productId": "carrot",
+              "amount": 150
+            },
+            {
+              "productId": "cucumber",
+              "amount": 150
+            },
+            {
+              "productId": "pb",
+              "amount": 10
+            },
+            {
+              "productId": "red",
+              "amount": 2
+            },
+            {
+              "productId": "lemon",
+              "amount": 10
+            }
+          ],
+          "instructions": "Откройте новые упаковки запеченной курицы. Для соуса смешайте арахисовую пасту, Tabasco, рубленую мякоть лимона и 30–50 мл теплой воды. Натрите морковь, нарежьте огурец. Подайте курицу с овощами, питой и соусом. Курицу можно оставить холодной."
+        },
+        {
+          "id": "dinner",
+          "type": "Ужин",
+          "title": "Боул с курицей, белой фасолью и дымным томатным соусом",
+          "ingredients": [
+            {
+              "productId": "readychicken",
+              "amount": 130
+            },
+            {
+              "productId": "beans",
+              "amount": 70
+            },
+            {
+              "productId": "avocado",
+              "amount": 40
+            },
+            {
+              "productId": "pepper",
+              "amount": 150
+            },
+            {
+              "productId": "carrot",
+              "amount": 100
+            },
+            {
+              "productId": "ketchup",
+              "amount": 25
+            },
+            {
+              "productId": "paprika",
+              "amount": 1
+            },
+            {
+              "productId": "red",
+              "amount": 2
+            },
+            {
+              "productId": "rye",
+              "amount": 20
+            }
+          ],
+          "instructions": "Слейте жидкость из новой банки фасоли. Смешайте кетчуп, паприку, Tabasco и немного воды. Нарежьте свежие овощи и авокадо. Разложите все ингредиенты и курицу из сегодняшних упаковок по двум мискам. Подайте с хлебцами. При желании прогрейте только сегодняшнюю порцию фасоли по упаковке."
+        },
+        {
+          "id": "snack",
+          "type": "Перекус",
+          "title": "Яблоки с шоколадным скиром",
+          "ingredients": [
+            {
+              "productId": "skyr",
+              "amount": 100
+            },
+            {
+              "productId": "apple",
+              "amount": 130
+            },
+            {
+              "productId": "cocoa",
+              "amount": 5
+            },
+            {
+              "productId": "pb",
+              "amount": 20
+            }
+          ],
+          "instructions": "Смешайте скир, какао и арахисовую пасту. Нарежьте яблоко дольками и подайте с кремом."
+        }
+      ]
+    }
+  ],
+  "prep": {
+    "duration": "2 часа 45 минут, с запасом до 3 часов",
+    "equipment": "Духовка, два противня, пергамент, термометр для еды, весы, неглубокие контейнеры, чайник, терка и кастрюля для каши.",
+    "note": "Одна большая заготовка в понедельник после доставки. Завтрак первого дня тоже после доставки. Оценка времени включает охлаждение и уборку. На остальных днях требуется примерно 5–10 минут на сборку основного блюда и 5–7 минут на кашу. Суточные действия обычно занимают 15–25 минут. Заготовки на все пять дней заранее не открываем.",
+    "steps": [
+      {
+        "time": "0:00–0:20",
+        "title": "Приемка и первый завтрак",
+        "text": "Проверьте реальные сроки use-by на упаковках. Для пятницы нужны закрытые молочные продукты и готовая курица со сроком минимум до 30 октября включительно. Сразу уберите их в холодильник. Приготовьте первый завтрак. Оставьте продукты на среду–пятницу закрытыми."
+      },
+      {
+        "time": "0:20–0:40",
+        "title": "Порции на два дня",
+        "text": "Отмерьте 380 г сырой курицы: по 130 г Никите и 60 г Насте на каждый из двух дней. Отмерьте 600 г фарша индейки: по 200 г Никите и 100 г Насте на каждый день. Сформируйте тефтели без масла. Отмерьте картофель на понедельник и 600 г моркови на два ужина. Подпишите порции до готовки."
+      },
+      {
+        "time": "0:40–1:20",
+        "title": "Два противня",
+        "text": "Запекайте птицу на пергаменте при 180 °C с конвекцией, ориентировочно 25–30 минут. Для сочности накройте курицу и добавьте немного воды. Овощи готовьте на отдельном противне до мягкости. Используйте пищевой термометр: в центре птицы нужно 75 °C на 30 секунд. Время зависит от толщины кусков. Первую порцию курицы и картофель подайте сразу после готовки."
+      },
+      {
+        "time": "1:20–1:50",
+        "title": "Охлаждение",
+        "text": "Разложите тефтели, курицу вторника и морковь в неглубокие контейнеры. Ускорьте охлаждение холодной водяной баней. Уберите в холодильник в течение 1–2 часов после готовки. Подпишите время и дату. Всю домашнюю птицу после охлаждения подавайте холодной по ограничению ее этикетки."
+      },
+      {
+        "time": "1:50–2:15",
+        "title": "Сухие наборы",
+        "text": "Развесьте овсянку, орехи, какао и специи по подписанным порциям на пять дней. Храните сухие продукты в закрытых емкостях в шкафу. Отдельно сгруппируйте закрытые банки и упаковки по дням. Не заливайте всю овсянку йогуртом заранее."
+      },
+      {
+        "time": "2:15–2:45",
+        "title": "Порядок и хранение",
+        "text": "Уберите кухню. Проверьте температуру холодильника. Оставьте овощи и фрукты на дни 3–5 целыми. Мойте и режьте их перед подачей. Не открывайте заранее готовую курицу, ростбиф, лосося и молочные упаковки на конец недели."
+      }
+    ]
+  },
+  "storage": {
+    "note": "Без морозилки. Домашние заготовки только на первые 48 часов. На дни 3–5 используются закрытые упаковки и свежая сборка. Сроки в интернет-каталоге не заменяют use-by на полученной упаковке.",
+    "url": "https://www.gov.uk/government/publications/student-guide-to-food-safety-and-hygiene/student-guide-to-food-safety-and-hygiene",
+    "rules": [
+      {
+        "title": "Холодильник 0–5 °C",
+        "text": "Соблюдайте температуру и указания конкретной упаковки. Сырое мясо держите в закрытой емкости на нижней полке до готовки."
+      },
+      {
+        "title": "Домашнее: до 48 часов",
+        "text": "Быстро охладите и уберите приготовленную еду в холодильник в течение 1–2 часов. Съешьте домашние заготовки до истечения 48 часов."
+      },
+      {
+        "title": "Проверка при доставке",
+        "text": "Для пятницы выбирайте use-by не раньше 30 октября. Если фактический срок короче, продукт не подходит для этого дня. Попросите замену с нужной датой или возврат. Записка сборщику не гарантирует срок."
+      },
+      {
+        "title": "Не разогревать домашнюю птицу",
+        "text": "У выбранной сырой курицы и фарша на этикетке указано «Do not reheat once cooled». После охлаждения подавайте их холодными. Горячую курицу в понедельник ешьте сразу после первой готовки."
+      }
+    ],
+    "rows": [
+      {
+        "product": "Домашняя курица, тефтели и запеченная морковь",
+        "when": "Понедельник–вторник",
+        "note": "Готовьте в понедельник. Используйте до истечения 48 часов. Во вторник подавайте холодными."
+      },
+      {
+        "product": "Готовая запеченная курица",
+        "when": "Две закрытые упаковки на среду, две на пятницу",
+        "note": "Нужно по 450 г готового мяса на каждый из этих дней. Общий нужный вес: 900 г. Вес упаковок переменный. После открытия используйте в течение 1 дня. Не переносите открытые в среду упаковки на пятницу."
+      },
+      {
+        "product": "Ростбиф и лосось горячего копчения",
+        "when": "Открыть в четверг",
+        "note": "200 г ростбифа и 160 г лосося используются на двоих полностью. Подавайте холодными. До открытия храните по use-by при температуре ниже 5 °C."
+      },
+      {
+        "product": "Скир, 4 × 450 г",
+        "when": "Открывать по мере расхода",
+        "note": "Всего требуется 1755 г. Каждую открытую упаковку используйте в течение 3 дней. Последняя упаковка нужна на четверг и пятницу."
+      },
+      {
+        "product": "Зерненый творог, 5 × 300 г",
+        "when": "Понедельник, среда, четверг, пятница",
+        "note": "Всего требуется 1309 г. После открытия используйте в течение 3 дней. Остаток понедельника сначала используйте в среду. Новые упаковки открывайте последовательно."
+      },
+      {
+        "product": "Питы, 3 упаковки",
+        "when": "Открыть во вторник, в среду вечером, в пятницу",
+        "note": "Открытую упаковку использовать в течение 1 дня. Питы среды вечером можно использовать в четверг в обед до истечения 24 часов. Остаток упаковки вторника не храните до вечера среды. На пятницу оставьте третью упаковку закрытой."
+      },
+      {
+        "product": "Чечевица, нут и белая фасоль",
+        "when": "Открывать только в день использования",
+        "note": "Взвешивайте без жидкости. Чечевица вторника пригодна на обед среды в пределах 2 дней. Для фасоли пятницы нужна новая банка. Остатки переложите из банки в закрытую емкость и используйте за 2 дня."
+      },
+      {
+        "product": "Пассата",
+        "when": "Открыть в понедельник",
+        "note": "Для меню нужно 300 г. Остаток храните ниже 5 °C не более 2 дней. Он не предназначен для пятницы и не включен в дневные калории."
+      },
+      {
+        "product": "Ягоды, овощи, авокадо и фрукты",
+        "when": "Целыми до дня подачи",
+        "note": "Голубику используйте в понедельник. Целые яблоки, морковь, огурцы и перец храните в холодильнике. Бананы не охлаждайте. Спелые авокадо уберите в холодильник. Твердые дозрейте при комнатной температуре и затем охладите. На пятницу оставьте самые твердые плоды. Нарезайте непосредственно перед едой."
+      },
+      {
+        "product": "Сухие продукты и соусы",
+        "when": "По упаковке",
+        "note": "Овсянку, орехи и хлебцы храните сухими в закрытых емкостях. Кетчуп Zero и горчицу после открытия уберите в холодильник. Горчицу используйте за 28 дней. Сроки и условия Tabasco смотрите на упаковке."
+      }
+    ]
+  },
+  "shopping": {
+    "note": "Один общий список на двоих на пять дней. Список одинаковый у Никиты и Насти: не складывайте его дважды. Количество упаковок учитывает сроки после открытия. Вес овощей, фруктов и готовой курицы переменный. При приемке сверьте его с нужным весом. Излишки упаковок не входят в калорийность меню. Масло не требуется.",
+    "groups": [
+      {
+        "name": "Птица, мясо и рыба",
+        "items": [
+          {
+            "productId": "chicken",
+            "quantity": 1
+          },
+          {
+            "productId": "turkey",
+            "quantity": 2
+          },
+          {
+            "productId": "readychicken",
+            "quantity": 4
+          },
+          {
+            "productId": "beef",
+            "quantity": 2
+          },
+          {
+            "productId": "salmon",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "name": "Молочные продукты",
+        "items": [
+          {
+            "productId": "skyr",
+            "quantity": 4
+          },
+          {
+            "productId": "cottage",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "name": "Гарниры, хлеб и бобовые",
+        "items": [
+          {
+            "productId": "oats",
+            "quantity": 1
+          },
+          {
+            "productId": "pitta",
+            "quantity": 3
+          },
+          {
+            "productId": "rye",
+            "quantity": 2
+          },
+          {
+            "productId": "lentils",
+            "quantity": 2
+          },
+          {
+            "productId": "chickpeas",
+            "quantity": 1
+          },
+          {
+            "productId": "beans",
+            "quantity": 2
+          },
+          {
+            "productId": "potato",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "name": "Овощи и фрукты",
+        "items": [
+          {
+            "productId": "avocado",
+            "quantity": 4
+          },
+          {
+            "productId": "carrot",
+            "quantity": 2
+          },
+          {
+            "productId": "pepper",
+            "quantity": 5
+          },
+          {
+            "productId": "cucumber",
+            "quantity": 6
+          },
+          {
+            "productId": "tomato",
+            "quantity": 2
+          },
+          {
+            "productId": "blueberry",
+            "quantity": 1
+          },
+          {
+            "productId": "apple",
+            "quantity": 2
+          },
+          {
+            "productId": "banana",
+            "quantity": 2
+          },
+          {
+            "productId": "lemon",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "name": "Соусы, орехи и специи",
+        "items": [
+          {
+            "productId": "walnut",
+            "quantity": 2
+          },
+          {
+            "productId": "pb",
+            "quantity": 1
+          },
+          {
+            "productId": "passata",
+            "quantity": 1
+          },
+          {
+            "productId": "red",
+            "quantity": 1
+          },
+          {
+            "productId": "green",
+            "quantity": 1
+          },
+          {
+            "productId": "ketchup",
+            "quantity": 1
+          },
+          {
+            "productId": "mustard",
+            "quantity": 1
+          },
+          {
+            "productId": "paprika",
+            "quantity": 1
+          },
+          {
+            "productId": "cinnamon",
+            "quantity": 1
+          },
+          {
+            "productId": "cocoa",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  }
+}
