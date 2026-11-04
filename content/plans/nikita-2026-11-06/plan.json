@@ -1,0 +1,1325 @@
+{
+  "schemaVersion": 1,
+  "id": "nikita-2026-11-06",
+  "personId": "nikita",
+  "title": "Рацион на 6–10 ноября",
+  "description": "Пять дней для двоих. Около 1600 ккал на человека. Все блюда собираются одновременно, отдельной заготовки на неделю нет.",
+  "revision": "Ориентир при 1600 ккал по заданным пропорциям: около 144 г белка, 60 г жиров и 122 г углеводов в день.",
+  "portionNote": "В рецептах указаны бытовые меры. Упаковка филе весит около 240 г, одно филе около 120 г. В расчёте одно яблоко содержит около 130 г съедобной части. Реальный вес может отличаться. Взвешивать можно только орехи, если нужна точность. Чайная ложка арахисовой пасты без горки принята за 5 г. Одна чайная ложка Tabasco равна 5 мл.",
+  "nutritionNote": "Калории взяты с этикеток Waitrose. Для значений «менее X» использована половина X. Вес бобовых и печёного перца указан без жидкости, фруктов в стаканчиках вместе с соком, мяса в готовом виде. Красный и зелёный Tabasco дают меньше 1 ккал на указанную порцию. Жиры есть в самих продуктах, в том числе в орехах, авокадо и сыре.",
+  "sourceNote": "Состав и пищевая ценность проверены по карточкам Waitrose 4 ноября 2026 года. Нажмите ⓘ у названия продукта, чтобы увидеть его название в магазине.",
+  "facts": [
+    {
+      "value": "5 дней",
+      "label": "с пятницы по вторник"
+    },
+    {
+      "value": "20 блюд",
+      "label": "общие для двоих"
+    },
+    {
+      "value": "2–5 мин",
+      "label": "на две порции"
+    }
+  ],
+  "products": {
+    "skyr": {
+      "name": "Натуральный скир",
+      "originalName": "Arla Skyr Natural Icelandic Style Yogurt",
+      "unit": "g",
+      "packageSize": "450 г",
+      "nutritionPer100": {
+        "kcal": 60.0,
+        "protein": 10.0,
+        "fat": 0.1,
+        "carbs": 4.0
+      },
+      "url": "https://www.waitrose.com/ecom/products/arla-skyr-natural-icelandic-style-yogurt/836769-437896-437897"
+    },
+    "greek": {
+      "name": "Греческий йогурт 5%",
+      "originalName": "Fage Total 5% Fat Natural Greek Yogurt",
+      "unit": "g",
+      "packageSize": "450 г",
+      "nutritionPer100": {
+        "kcal": 93.0,
+        "protein": 9.0,
+        "fat": 5.0,
+        "carbs": 3.0
+      },
+      "url": "https://www.waitrose.com/ecom/products/fage-total-5-fat-natural-greek-yogurt/053227-26599-26600"
+    },
+    "vanilla": {
+      "name": "Натуральный греческий йогурт 0%",
+      "originalName": "Fage Total 0% Fat Free Natural Greek Yogurt Small",
+      "unit": "g",
+      "packageSize": "150 г",
+      "nutritionPer100": {
+        "kcal": 54.0,
+        "protein": 10.3,
+        "fat": 0.0,
+        "carbs": 3.0
+      },
+      "url": "https://www.waitrose.com/ecom/products/fage-total-0-fat-free-natural-greek-yogurt-small/073661-37368-37369"
+    },
+    "cottage": {
+      "name": "Зернёный творог",
+      "originalName": "Essential Cottage Cheese Strength 1",
+      "unit": "g",
+      "packageSize": "300 г",
+      "nutritionPer100": {
+        "kcal": 102.0,
+        "protein": 10.3,
+        "fat": 5.4,
+        "carbs": 3.1
+      },
+      "url": "https://www.waitrose.com/ecom/products/essential-cottage-cheese-strength-1/016264-7790-7791"
+    },
+    "cheddar": {
+      "name": "Порционный зрелый чеддер",
+      "originalName": "Cathedral City Mini Mature Cheddar Cheeses",
+      "unit": "g",
+      "packageSize": "6 сырков по 20 г",
+      "nutritionPer100": {
+        "kcal": 416.0,
+        "protein": 25.4,
+        "fat": 34.9,
+        "carbs": 0.1
+      },
+      "url": "https://www.waitrose.com/ecom/products/cathedral-city-mini-mature-cheddar-cheeses/040926-20218-20219"
+    },
+    "turkey": {
+      "name": "Готовая индейка, 6 ломтиков",
+      "originalName": "Waitrose Roast Turkey Breast 6 Slices",
+      "unit": "g",
+      "packageSize": "130 г, 6 ломтиков",
+      "nutritionPer100": {
+        "kcal": 109.0,
+        "protein": 25.2,
+        "fat": 0.8,
+        "carbs": 0.0
+      },
+      "url": "https://www.waitrose.com/ecom/products/waitrose-roast-turkey-breast-6-slices/960140-1-2"
+    },
+    "chicken": {
+      "name": "Готовая куриная грудка, 6 ломтиков",
+      "originalName": "Waitrose Cooked Roast Chicken Breast Slices 6",
+      "unit": "g",
+      "packageSize": "130 г, 6 ломтиков",
+      "nutritionPer100": {
+        "kcal": 107.0,
+        "protein": 22.5,
+        "fat": 1.7,
+        "carbs": 0.0
+      },
+      "url": "https://www.waitrose.com/ecom/products/waitrose-cooked-roast-chicken-breast-slices-6/808466-156605-156606"
+    },
+    "roast": {
+      "name": "Готовые запечённые куриные грудки с кожей",
+      "originalName": "Waitrose Cooked Roast Chicken Breast Fillets 2",
+      "unit": "g",
+      "packageSize": "2 филе, обычно около 240 г",
+      "nutritionPer100": {
+        "kcal": 156.0,
+        "protein": 25.6,
+        "fat": 5.2,
+        "carbs": 1.6
+      },
+      "url": "https://www.waitrose.com/ecom/products/waitrose-cooked-roast-chicken-breast-fillets-2/792711-112765-112766"
+    },
+    "beef": {
+      "name": "Готовый ростбиф, 3 ломтика",
+      "originalName": "Waitrose British Roast Beef Topside 3 Slices",
+      "unit": "g",
+      "packageSize": "100 г, 3 ломтика",
+      "nutritionPer100": {
+        "kcal": 134.0,
+        "protein": 25.8,
+        "fat": 3.3,
+        "carbs": 0.25
+      },
+      "url": "https://www.waitrose.com/ecom/products/waitrose-british-roast-beef-topside-3-slices/426316-156489-156490"
+    },
+    "avo": {
+      "name": "Готовое гуакамоле с лаймом",
+      "originalName": "Waitrose Guacamole Dip",
+      "unit": "g",
+      "packageSize": "170 г",
+      "nutritionPer100": {
+        "kcal": 172.0,
+        "protein": 1.1,
+        "fat": 16.0,
+        "carbs": 4.3
+      },
+      "url": "https://www.waitrose.com/ecom/products/waitrose-guacamole-dip/737731-202407-202408"
+    },
+    "tom": {
+      "name": "Помидоры черри",
+      "originalName": "Essential Cherry Tomatoes",
+      "unit": "g",
+      "packageSize": "400 г",
+      "nutritionPer100": {
+        "kcal": 26.0,
+        "protein": 1.1,
+        "fat": 0.5,
+        "carbs": 3.6
+      },
+      "url": "https://www.waitrose.com/ecom/products/essential-cherry-tomatoes/086533-44216-44217"
+    },
+    "cuke": {
+      "name": "Мини-огурцы",
+      "originalName": "Waitrose Baby Cucumber",
+      "unit": "g",
+      "packageSize": "200 г",
+      "nutritionPer100": {
+        "kcal": 11.0,
+        "protein": 0.7,
+        "fat": 0.25,
+        "carbs": 1.5
+      },
+      "url": "https://www.waitrose.com/ecom/products/waitrose-baby-cucumber/279693-826926-826927"
+    },
+    "blue": {
+      "name": "Свежая черника",
+      "originalName": "Essential Blueberries",
+      "unit": "g",
+      "packageSize": "150 г",
+      "nutritionPer100": {
+        "kcal": 45.0,
+        "protein": 0.9,
+        "fat": 0.25,
+        "carbs": 9.1
+      },
+      "url": "https://www.waitrose.com/ecom/products/essential-blueberries/088036-45014-45015"
+    },
+    "beet": {
+      "name": "Варёная свёкла без маринада",
+      "originalName": "Duchy Organic Cooked Beetroot",
+      "unit": "g",
+      "packageSize": "250 г",
+      "nutritionPer100": {
+        "kcal": 42.0,
+        "protein": 1.4,
+        "fat": 0.25,
+        "carbs": 7.2
+      },
+      "url": "https://www.waitrose.com/ecom/products/duchy-organic-cooked-beetroot/085562-43657-43658"
+    },
+    "apple": {
+      "name": "Яблоко Gala с кожурой, без сердцевины",
+      "originalName": "Waitrose Royal Gala Apples",
+      "unit": "g",
+      "packageSize": "6 шт., расчёт по 130 г съедобной части",
+      "nutritionPer100": {
+        "kcal": 55.0,
+        "protein": 0.25,
+        "fat": 0.25,
+        "carbs": 11.8
+      },
+      "url": "https://www.waitrose.com/ecom/products/waitrose-royal-gala-apples/088628-45509-45510"
+    },
+    "potato": {
+      "name": "Молодой картофель для микроволновки",
+      "originalName": "Waitrose British Baby Potatoes",
+      "unit": "g",
+      "packageSize": "200 г",
+      "nutritionPer100": {
+        "kcal": 71.0,
+        "protein": 1.8,
+        "fat": 0.25,
+        "carbs": 14.9
+      },
+      "url": "https://www.waitrose.com/ecom/products/waitrose-british-baby-potatoes/522872-131307-131308"
+    },
+    "babypep": {
+      "name": "Сладкие мини-перцы",
+      "originalName": "Waitrose Sweet Mixed Baby Peppers",
+      "unit": "g",
+      "packageSize": "150 г",
+      "nutritionPer100": {
+        "kcal": 37.0,
+        "protein": 1.0,
+        "fat": 0.25,
+        "carbs": 6.4
+      },
+      "url": "https://www.waitrose.com/ecom/products/waitrose-sweet-mixed-baby-peppers/620591-197970-197971"
+    },
+    "prune": {
+      "name": "Чернослив без косточек, вместе с соком",
+      "originalName": "Nature's Finest Pitted Prunes in Juice",
+      "unit": "g",
+      "packageSize": "4 стаканчика по 120 г",
+      "nutritionPer100": {
+        "kcal": 111.0,
+        "protein": 0.7,
+        "fat": 0.2,
+        "carbs": 25.0
+      },
+      "url": "https://www.waitrose.com/ecom/products/natures-finest-pitted-prunes-in-juice/997604-1-2"
+    },
+    "mand": {
+      "name": "Дольки мандарина вместе с соком",
+      "originalName": "Nature's Finest Mandarin in Juice Snack Pack",
+      "unit": "g",
+      "packageSize": "4 стаканчика по 113 г",
+      "nutritionPer100": {
+        "kcal": 64.0,
+        "protein": 0.25,
+        "fat": 0.25,
+        "carbs": 14.4
+      },
+      "url": "https://www.waitrose.com/ecom/products/natures-finest-mandarin-in-juice-snack-pack/860197-824213-824214"
+    },
+    "four": {
+      "name": "Салат из четырёх бобовых, без жидкости",
+      "originalName": "Duchy Organic Four Bean Salad in Water",
+      "unit": "g",
+      "packageSize": "410 г, около 252 г после слива",
+      "nutritionPer100": {
+        "kcal": 89.0,
+        "protein": 6.1,
+        "fat": 0.8,
+        "carbs": 9.1
+      },
+      "url": "https://www.waitrose.com/ecom/products/duchy-organic-four-bean-salad-in-water/560062-747674-747675"
+    },
+    "chickpea": {
+      "name": "Нут, без жидкости",
+      "originalName": "Essential Chickpeas in Water",
+      "unit": "g",
+      "packageSize": "400 г, 240 г после слива",
+      "nutritionPer100": {
+        "kcal": 118.0,
+        "protein": 6.6,
+        "fat": 2.4,
+        "carbs": 14.6
+      },
+      "url": "https://www.waitrose.com/ecom/products/essential-chickpeas-in-water/421437-805739-805740"
+    },
+    "dhal": {
+      "name": "Готовый суп дал из красной чечевицы",
+      "originalName": "Heinz Red Lentil Dhal Soup Pot",
+      "unit": "g",
+      "packageSize": "400 г",
+      "nutritionPer100": {
+        "kcal": 47.0,
+        "protein": 2.4,
+        "fat": 1.0,
+        "carbs": 6.0
+      },
+      "url": "https://www.waitrose.com/ecom/products/heinz-red-lentil-dhal-soup-pot/615304-851369-851370"
+    },
+    "heinz": {
+      "name": "Белая фасоль в томатном соусе",
+      "originalName": "Heinz Beanz No Added Sugar",
+      "unit": "g",
+      "packageSize": "4 банки по 200 г",
+      "nutritionPer100": {
+        "kcal": 65.0,
+        "protein": 4.6,
+        "fat": 0.2,
+        "carbs": 9.5
+      },
+      "url": "https://www.waitrose.com/ecom/products/heinz-beanz-no-added-sugar/904529-836437-836438"
+    },
+    "pep": {
+      "name": "Печёный красный перец, без рассола",
+      "originalName": "Peppadew Roasted Red Peppers",
+      "unit": "g",
+      "packageSize": "465 г, 350 г после слива",
+      "nutritionPer100": {
+        "kcal": 21.0,
+        "protein": 0.8,
+        "fat": 0.0,
+        "carbs": 3.9
+      },
+      "url": "https://www.waitrose.com/ecom/products/peppadew-roasted-red-peppers/581888-420247-420248"
+    },
+    "pitta": {
+      "name": "Цельнозерновая пита",
+      "originalName": "Waitrose 6 Wholemeal Pittas",
+      "unit": "g",
+      "packageSize": "6 пит примерно по 60 г",
+      "nutritionPer100": {
+        "kcal": 231.0,
+        "protein": 9.9,
+        "fat": 1.1,
+        "carbs": 40.8
+      },
+      "url": "https://www.waitrose.com/ecom/products/waitrose-6-wholemeal-pittas/759158-769636-769637"
+    },
+    "weet": {
+      "name": "Цельнозерновые пшеничные брикеты Weetabix",
+      "originalName": "Weetabix",
+      "unit": "g",
+      "packageSize": "24 шт. по 18,75 г",
+      "nutritionPer100": {
+        "kcal": 354.0,
+        "protein": 11.0,
+        "fat": 2.0,
+        "carbs": 68.0
+      },
+      "url": "https://www.waitrose.com/ecom/products/weetabix/001303-214-215"
+    },
+    "rye": {
+      "name": "Ржаные хлебцы Ryvita",
+      "originalName": "Ryvita Crispbread Dark Rye Crackers",
+      "unit": "g",
+      "packageSize": "250 г, около 23 хлебцев",
+      "nutritionPer100": {
+        "kcal": 349.0,
+        "protein": 10.6,
+        "fat": 0.9,
+        "carbs": 67.5
+      },
+      "url": "https://www.waitrose.com/ecom/products/ryvita-crispbread-dark-rye-crackers/084178-42753-42754"
+    },
+    "pb": {
+      "name": "Арахисовая паста из 100% арахиса",
+      "originalName": "Waitrose 100% Peanuts Smooth Peanut Butter",
+      "unit": "g",
+      "packageSize": "340 г",
+      "nutritionPer100": {
+        "kcal": 618.0,
+        "protein": 29.0,
+        "fat": 49.4,
+        "carbs": 11.0
+      },
+      "url": "https://www.waitrose.com/ecom/products/waitrose-100-peanuts-smooth-peanut-butter/966737-847323-847324"
+    },
+    "nuts": {
+      "name": "Грецкие орехи кусочками",
+      "originalName": "Waitrose Walnut Pieces",
+      "unit": "g",
+      "packageSize": "200 г",
+      "nutritionPer100": {
+        "kcal": 667.0,
+        "protein": 18.2,
+        "fat": 60.0,
+        "carbs": 11.4
+      },
+      "url": "https://www.waitrose.com/ecom/products/waitrose-walnut-pieces/006821-3067-3068"
+    },
+    "red": {
+      "name": "Красный Tabasco",
+      "originalName": "Tabasco Pepper Sauce",
+      "unit": "ml",
+      "packageSize": "57 мл",
+      "nutritionPer100": {
+        "kcal": 16.0,
+        "protein": 1.0,
+        "fat": 0.7,
+        "carbs": 1.6
+      },
+      "url": "https://www.waitrose.com/ecom/products/tabasco-pepper-sauce/034686-17469-17470"
+    },
+    "green": {
+      "name": "Зелёный Tabasco с халапеньо",
+      "originalName": "Tabasco Mild Green Pepper Sauce",
+      "unit": "ml",
+      "packageSize": "57 мл",
+      "nutritionPer100": {
+        "kcal": 11.0,
+        "protein": 0.6,
+        "fat": 0.05,
+        "carbs": 1.8
+      },
+      "url": "https://www.waitrose.com/ecom/products/tabasco-mild-green-pepper-sauce/686472-97511-97512"
+    }
+  },
+  "days": [
+    {
+      "date": "2026-11-06",
+      "meals": [
+        {
+          "id": "breakfast",
+          "type": "Завтрак",
+          "title": "Черничный скир с хрустящим Weetabix и арахисом",
+          "sharedPrepNote": "2 мин на обе порции · также готовим для Насти",
+          "ingredients": [
+            {
+              "productId": "skyr",
+              "amount": 300.0
+            },
+            {
+              "productId": "blue",
+              "amount": 75
+            },
+            {
+              "productId": "weet",
+              "amount": 18.75
+            },
+            {
+              "productId": "pb",
+              "amount": 10.0
+            }
+          ],
+          "instructions": "Разложите скир по двум мискам. Промойте чернику. Раскрошите Weetabix сверху, добавьте ягоды и арахисовую пасту. Ваша порция: скир ⅔ банки, черника ½ уп., Weetabix 1 шт., арахисовая паста 2 ч. л..",
+          "image": {
+            "src": "images/01-breakfast.jpg",
+            "alt": "Пример подачи: черничный скир с хрустящим weetabix и арахисом."
+          }
+        },
+        {
+          "id": "lunch",
+          "type": "Обед",
+          "title": "Пита с индейкой, гуакамоле и черри",
+          "sharedPrepNote": "3 мин на обе порции · также готовим для Насти",
+          "ingredients": [
+            {
+              "productId": "pitta",
+              "amount": 60
+            },
+            {
+              "productId": "turkey",
+              "amount": 86.67
+            },
+            {
+              "productId": "avo",
+              "amount": 42.5
+            },
+            {
+              "productId": "tom",
+              "amount": 100
+            },
+            {
+              "productId": "green",
+              "amount": 3
+            }
+          ],
+          "instructions": "Откройте первую упаковку пит. Раскройте кармашки и смажьте гуакамоле с зелёным Tabasco. Вложите ломтики индейки. Вымойте черри и подайте рядом. Оставшиеся три питы плотно закройте до субботнего обеда. Ваша порция: пита 1 шт., индейка 4 ломт., гуакамоле ¼ банки, черри ¼ уп., зелёный Tabasco 3 мл.",
+          "image": {
+            "src": "images/01-lunch.jpg",
+            "alt": "Пример подачи: пита с индейкой, гуакамоле и черри."
+          }
+        },
+        {
+          "id": "dinner",
+          "type": "Ужин",
+          "title": "Запечённая курица с четырьмя видами бобовых и чеддером",
+          "sharedPrepNote": "3 мин на обе порции · также готовим для Насти",
+          "ingredients": [
+            {
+              "productId": "roast",
+              "amount": 160
+            },
+            {
+              "productId": "four",
+              "amount": 126
+            },
+            {
+              "productId": "cuke",
+              "amount": 100
+            },
+            {
+              "productId": "cheddar",
+              "amount": 10
+            },
+            {
+              "productId": "red",
+              "amount": 2
+            },
+            {
+              "productId": "rye",
+              "amount": 21.0
+            }
+          ],
+          "instructions": "Слейте жидкость из готового салата из бобовых и разделите его пополам. Сбрызните красным Tabasco. Разберите готовые холодные грудки руками. Подайте с вымытыми мини-огурцами, чеддером и хлебцами. Ваша порция: курица 1⅓ филе, бобовые ½ банки, огурцы ½ уп., чеддер ½ сырка, красный Tabasco 2 мл, хлебцы 2 шт..",
+          "image": {
+            "src": "images/01-dinner.jpg",
+            "alt": "Пример подачи: запечённая курица с четырьмя видами бобовых и чеддером."
+          }
+        },
+        {
+          "id": "snack",
+          "type": "Перекус",
+          "title": "Зернёный творог с черносливом и грецким орехом",
+          "sharedPrepNote": "2 мин на обе порции · также готовим для Насти",
+          "ingredients": [
+            {
+              "productId": "cottage",
+              "amount": 200.0
+            },
+            {
+              "productId": "nuts",
+              "amount": 25.0
+            },
+            {
+              "productId": "prune",
+              "amount": 60
+            }
+          ],
+          "instructions": "Разложите творог, добавьте чернослив вместе с соком и посыпьте кусочками грецкого ореха. Ваша порция: творог ⅔ банки, грецкие орехи 25 г, чернослив ½ стак..",
+          "image": {
+            "src": "images/01-snack.jpg",
+            "alt": "Пример подачи: зернёный творог с черносливом и грецким орехом."
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "meals": [
+        {
+          "id": "breakfast",
+          "type": "Завтрак",
+          "title": "Греческий йогурт с мандарином и ореховой крошкой",
+          "sharedPrepNote": "2 мин на обе порции · также готовим для Насти",
+          "ingredients": [
+            {
+              "productId": "greek",
+              "amount": 225.0
+            },
+            {
+              "productId": "mand",
+              "amount": 56.5
+            },
+            {
+              "productId": "weet",
+              "amount": 18.75
+            },
+            {
+              "productId": "nuts",
+              "amount": 20.0
+            }
+          ],
+          "instructions": "Разделите греческий йогурт между двумя мисками. Добавьте мандарины с соком и грецкие орехи. Раскрошите сверху Weetabix перед едой. Ваша порция: йогурт ½ банки, мандарины ½ стак., Weetabix 1 шт., грецкие орехи 20 г.",
+          "image": {
+            "src": "images/02-breakfast.jpg",
+            "alt": "Пример подачи: греческий йогурт с мандарином и ореховой крошкой."
+          }
+        },
+        {
+          "id": "lunch",
+          "type": "Обед",
+          "title": "Чечевичный дал с питой, запечённой курицей и чеддером",
+          "sharedPrepNote": "4 мин на обе порции · также готовим для Насти",
+          "ingredients": [
+            {
+              "productId": "dhal",
+              "amount": 200
+            },
+            {
+              "productId": "pitta",
+              "amount": 60.0
+            },
+            {
+              "productId": "cheddar",
+              "amount": 10
+            },
+            {
+              "productId": "red",
+              "amount": 2
+            },
+            {
+              "productId": "roast",
+              "amount": 180
+            }
+          ],
+          "instructions": "Встряхните дал, снимите фольгу, неплотно прикройте крышкой. Грейте 2 минуты при 900 Вт, перемешав через минуту. Дайте постоять 1 минуту. Тем временем наполните вчерашние питы готовой холодной курицей и чеддером. Разлейте дал пополам и добавьте красный Tabasco. Ваша порция: дал ½ стак., пита 1 шт., чеддер ½ сырка, красный Tabasco 2 мл, курица 1½ филе.",
+          "image": {
+            "src": "images/02-lunch.jpg",
+            "alt": "Пример подачи: чечевичный дал с питой, запечённой курицей и чеддером."
+          }
+        },
+        {
+          "id": "dinner",
+          "type": "Ужин",
+          "title": "Тёплый нут с индейкой, свёклой и гуакамоле",
+          "sharedPrepNote": "4 мин на обе порции · также готовим для Насти",
+          "ingredients": [
+            {
+              "productId": "chickpea",
+              "amount": 120
+            },
+            {
+              "productId": "turkey",
+              "amount": 86.67
+            },
+            {
+              "productId": "beet",
+              "amount": 125
+            },
+            {
+              "productId": "avo",
+              "amount": 28.33
+            },
+            {
+              "productId": "green",
+              "amount": 3
+            }
+          ],
+          "instructions": "Переложите нут с жидкостью в миску, прикройте крышкой для СВЧ. Грейте 2½ минуты при 900 Вт, перемешав на середине. Слейте воду. Пока греется нут, разложите готовую индейку и свёклу. Смешайте гуакамоле с зелёным Tabasco и подайте с нутом. Ваша порция: нут ½ банки, индейка 4 ломт., свёкла ½ уп., гуакамоле 1/6 банки, зелёный Tabasco 3 мл.",
+          "image": {
+            "src": "images/02-dinner.jpg",
+            "alt": "Пример подачи: тёплый нут с индейкой, свёклой и гуакамоле."
+          }
+        },
+        {
+          "id": "snack",
+          "type": "Перекус",
+          "title": "Греческий йогурт с черникой и арахисовой пастой",
+          "sharedPrepNote": "2 мин на обе порции · также готовим для Насти",
+          "ingredients": [
+            {
+              "productId": "vanilla",
+              "amount": 100
+            },
+            {
+              "productId": "blue",
+              "amount": 75
+            },
+            {
+              "productId": "pb",
+              "amount": 17.5
+            },
+            {
+              "productId": "weet",
+              "amount": 18.75
+            }
+          ],
+          "instructions": "Разложите греческий йогурт. Промойте чернику и добавьте в обе миски. Сверху положите арахисовую пасту и раскрошите Weetabix. Ваша порция: йогурт 0% ⅔ стак., черника ½ уп., арахисовая паста 3½ ч. л., Weetabix 1 шт..",
+          "image": {
+            "src": "images/02-snack.jpg",
+            "alt": "Пример подачи: греческий йогурт с черникой и арахисовой пастой."
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "meals": [
+        {
+          "id": "breakfast",
+          "type": "Завтрак",
+          "title": "Ржаные хлебцы с зернёным творогом, гуакамоле и черри",
+          "sharedPrepNote": "3 мин на обе порции · также готовим для Насти",
+          "ingredients": [
+            {
+              "productId": "cottage",
+              "amount": 200.0
+            },
+            {
+              "productId": "rye",
+              "amount": 21.0
+            },
+            {
+              "productId": "tom",
+              "amount": 100
+            },
+            {
+              "productId": "avo",
+              "amount": 42.5
+            },
+            {
+              "productId": "green",
+              "amount": 3
+            }
+          ],
+          "instructions": "Промойте черри. Смешайте гуакамоле с зелёным Tabasco, разложите на хлебцы и добавьте творог. Оставшийся творог и черри подайте рядом. Ваша порция: творог ⅔ банки, хлебцы 2 шт., черри ¼ уп., гуакамоле ¼ банки, зелёный Tabasco 3 мл.",
+          "image": {
+            "src": "images/03-breakfast.jpg",
+            "alt": "Пример подачи: ржаные хлебцы с зернёным творогом, гуакамоле и черри."
+          }
+        },
+        {
+          "id": "lunch",
+          "type": "Обед",
+          "title": "Ростбиф с хрустящим огурцом, фасолью и чеддером",
+          "sharedPrepNote": "3 мин на обе порции · также готовим для Насти",
+          "ingredients": [
+            {
+              "productId": "beef",
+              "amount": 66.67
+            },
+            {
+              "productId": "cuke",
+              "amount": 100
+            },
+            {
+              "productId": "four",
+              "amount": 126
+            },
+            {
+              "productId": "cheddar",
+              "amount": 40
+            },
+            {
+              "productId": "red",
+              "amount": 2
+            },
+            {
+              "productId": "rye",
+              "amount": 31.5
+            }
+          ],
+          "instructions": "Слейте воду с бобовых. Промойте мини-огурцы. Разложите на две тарелки ломтики ростбифа, бобовые, огурцы, чеддер и хлебцы. Добавьте красный Tabasco в бобовые. Ваша порция: ростбиф 2 ломт., огурцы ½ уп., бобовые ½ банки, чеддер 2 сырка, красный Tabasco 2 мл, хлебцы 3 шт..",
+          "image": {
+            "src": "images/03-lunch.jpg",
+            "alt": "Пример подачи: ростбиф с хрустящим огурцом, фасолью и чеддером."
+          }
+        },
+        {
+          "id": "dinner",
+          "type": "Ужин",
+          "title": "Курица с молодым картофелем и гуакамоле",
+          "sharedPrepNote": "5 мин на обе порции · также готовим для Насти",
+          "ingredients": [
+            {
+              "productId": "roast",
+              "amount": 150
+            },
+            {
+              "productId": "potato",
+              "amount": 100
+            },
+            {
+              "productId": "babypep",
+              "amount": 75
+            },
+            {
+              "productId": "avo",
+              "amount": 42.5
+            },
+            {
+              "productId": "green",
+              "amount": 3
+            }
+          ],
+          "instructions": "Проколите один пакет картофеля и поставьте на тарелке в СВЧ на 3½ минуты при 900 Вт. Встряхните на середине. Дайте постоять 1 минуту. За это время разложите холодную курицу, вымытые мини-перцы и гуакамоле с зелёным Tabasco. Разделите горячий картофель пополам. Ваша порция: курица 1¼ филе, картофель ½ уп., мини-перцы ½ уп., гуакамоле ¼ банки, зелёный Tabasco 3 мл.",
+          "image": {
+            "src": "images/03-dinner.jpg",
+            "alt": "Пример подачи: курица с молодым картофелем и гуакамоле."
+          }
+        },
+        {
+          "id": "snack",
+          "type": "Перекус",
+          "title": "Яблоко со скиром, хрустящими злаками и арахисовой пастой",
+          "sharedPrepNote": "2 мин на обе порции · также готовим для Насти",
+          "ingredients": [
+            {
+              "productId": "skyr",
+              "amount": 300.0
+            },
+            {
+              "productId": "apple",
+              "amount": 65
+            },
+            {
+              "productId": "weet",
+              "amount": 18.75
+            },
+            {
+              "productId": "pb",
+              "amount": 7.5
+            }
+          ],
+          "instructions": "Промойте яблоки и разделите на порции. Подавайте дольки рядом или ешьте вприкуску. Разложите скир, добавьте арахисовую пасту и покрошите Weetabix. Ваша порция: скир ⅔ банки, яблоко ½ шт., Weetabix 1 шт., арахисовая паста 1½ ч. л..",
+          "image": {
+            "src": "images/03-snack.jpg",
+            "alt": "Пример подачи: яблоко со скиром, хрустящими злаками и арахисовой пастой."
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "meals": [
+        {
+          "id": "breakfast",
+          "type": "Завтрак",
+          "title": "Греческий йогурт с яблоком и арахисовой пастой",
+          "sharedPrepNote": "2 мин на обе порции · также готовим для Насти",
+          "ingredients": [
+            {
+              "productId": "greek",
+              "amount": 300.0
+            },
+            {
+              "productId": "apple",
+              "amount": 130
+            },
+            {
+              "productId": "weet",
+              "amount": 18.75
+            },
+            {
+              "productId": "pb",
+              "amount": 7.5
+            }
+          ],
+          "instructions": "Разложите греческий йогурт и добавьте арахисовую пасту. Промойте яблоки. Подайте целыми или дольками, а Weetabix раскрошите в миски. Ваша порция: йогурт ⅔ банки, яблоко 1 шт., Weetabix 1 шт., арахисовая паста 1½ ч. л..",
+          "image": {
+            "src": "images/04-breakfast.jpg",
+            "alt": "Пример подачи: греческий йогурт с яблоком и арахисовой пастой."
+          }
+        },
+        {
+          "id": "lunch",
+          "type": "Обед",
+          "title": "Пита с индейкой, печёным перцем и чеддером",
+          "sharedPrepNote": "3 мин на обе порции · также готовим для Насти",
+          "ingredients": [
+            {
+              "productId": "pitta",
+              "amount": 60.0
+            },
+            {
+              "productId": "turkey",
+              "amount": 86.67
+            },
+            {
+              "productId": "pep",
+              "amount": 87.5
+            },
+            {
+              "productId": "cheddar",
+              "amount": 40
+            },
+            {
+              "productId": "green",
+              "amount": 3
+            }
+          ],
+          "instructions": "Откройте вторую упаковку пит. Достаньте из банки половину перцев без рассола и разделите между двумя тарелками. Наполните питы индейкой, перцем и кусочками чеддера. Добавьте зелёный Tabasco. Закройте оставшиеся три питы до вторничного обеда. Ваша порция: пита 1 шт., индейка 4 ломт., печёный перец ¼ банки, чеддер 2 сырка, зелёный Tabasco 3 мл.",
+          "image": {
+            "src": "images/04-lunch.jpg",
+            "alt": "Пример подачи: пита с индейкой, печёным перцем и чеддером."
+          }
+        },
+        {
+          "id": "dinner",
+          "type": "Ужин",
+          "title": "Курица с горячей томатной фасолью, свёклой и гуакамоле",
+          "sharedPrepNote": "4 мин на обе порции · также готовим для Насти",
+          "ingredients": [
+            {
+              "productId": "roast",
+              "amount": 160
+            },
+            {
+              "productId": "heinz",
+              "amount": 200.0
+            },
+            {
+              "productId": "beet",
+              "amount": 125
+            },
+            {
+              "productId": "avo",
+              "amount": 28.33
+            },
+            {
+              "productId": "red",
+              "amount": 2
+            }
+          ],
+          "instructions": "Грейте каждую маленькую банку фасоли отдельно: переложите в миску, прикройте и разогревайте 1 минуту при 850 Вт. Перемешайте и грейте ещё 30 секунд. Повторите со второй банкой. Пока они греются, разложите готовую курицу, свёклу и гуакамоле. Добавьте красный Tabasco к фасоли. Ваша порция: курица 1⅓ филе, фасоль 1 мал. банки, свёкла ½ уп., гуакамоле 1/6 банки, красный Tabasco 2 мл.",
+          "image": {
+            "src": "images/04-dinner.jpg",
+            "alt": "Пример подачи: курица с горячей томатной фасолью, свёклой и гуакамоле."
+          }
+        },
+        {
+          "id": "snack",
+          "type": "Перекус",
+          "title": "Греческий йогурт с черносливом и грецким орехом",
+          "sharedPrepNote": "2 мин на обе порции · также готовим для Насти",
+          "ingredients": [
+            {
+              "productId": "vanilla",
+              "amount": 100
+            },
+            {
+              "productId": "nuts",
+              "amount": 17.5
+            },
+            {
+              "productId": "prune",
+              "amount": 60
+            }
+          ],
+          "instructions": "Разложите греческий йогурт, чернослив вместе с соком и грецкие орехи. Ваша порция: йогурт 0% ⅔ стак., грецкие орехи 17,5 г, чернослив ½ стак..",
+          "image": {
+            "src": "images/04-snack.jpg",
+            "alt": "Пример подачи: греческий йогурт с черносливом и грецким орехом."
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "meals": [
+        {
+          "id": "breakfast",
+          "type": "Завтрак",
+          "title": "Скир с дольками мандарина, орехами и Weetabix",
+          "sharedPrepNote": "2 мин на обе порции · также готовим для Насти",
+          "ingredients": [
+            {
+              "productId": "skyr",
+              "amount": 300.0
+            },
+            {
+              "productId": "mand",
+              "amount": 56.5
+            },
+            {
+              "productId": "weet",
+              "amount": 18.75
+            },
+            {
+              "productId": "nuts",
+              "amount": 20.0
+            }
+          ],
+          "instructions": "Разложите скир и мандарины вместе с соком. Раскрошите сверху Weetabix и добавьте грецкие орехи. Ваша порция: скир ⅔ банки, мандарины ½ стак., Weetabix 1 шт., грецкие орехи 20 г.",
+          "image": {
+            "src": "images/05-breakfast.jpg",
+            "alt": "Пример подачи: скир с дольками мандарина, орехами и weetabix."
+          }
+        },
+        {
+          "id": "lunch",
+          "type": "Обед",
+          "title": "Пита с ростбифом, свёклой и гуакамоле",
+          "sharedPrepNote": "3 мин на обе порции · также готовим для Насти",
+          "ingredients": [
+            {
+              "productId": "pitta",
+              "amount": 60.0
+            },
+            {
+              "productId": "beef",
+              "amount": 133.33
+            },
+            {
+              "productId": "beet",
+              "amount": 125
+            },
+            {
+              "productId": "avo",
+              "amount": 42.5
+            },
+            {
+              "productId": "green",
+              "amount": 3
+            }
+          ],
+          "instructions": "Раскройте вчерашние питы. Смешайте гуакамоле с зелёным Tabasco. Наполните питы ростбифом и гуакамоле. Варёную свёклу поделите вилкой и подайте рядом или положите внутрь. Ваша порция: пита 1 шт., ростбиф 4 ломт., свёкла ½ уп., гуакамоле ¼ банки, зелёный Tabasco 3 мл.",
+          "image": {
+            "src": "images/05-lunch.jpg",
+            "alt": "Пример подачи: пита с ростбифом, свёклой и гуакамоле."
+          }
+        },
+        {
+          "id": "dinner",
+          "type": "Ужин",
+          "title": "Красный дал с курицей, печёным перцем и чеддером",
+          "sharedPrepNote": "4 мин на обе порции · также готовим для Насти",
+          "ingredients": [
+            {
+              "productId": "dhal",
+              "amount": 200
+            },
+            {
+              "productId": "chicken",
+              "amount": 86.67
+            },
+            {
+              "productId": "pep",
+              "amount": 87.5
+            },
+            {
+              "productId": "cheddar",
+              "amount": 20
+            },
+            {
+              "productId": "red",
+              "amount": 2
+            },
+            {
+              "productId": "rye",
+              "amount": 10.5
+            }
+          ],
+          "instructions": "Встряхните дал, снимите фольгу и неплотно прикройте крышкой. Разогрейте 2 минуты при 900 Вт, перемешав через минуту. Дайте постоять ещё минуту. За это время разложите курицу, оставшийся печёный перец, чеддер и хлебцы. Разделите дал пополам и добавьте красный Tabasco. Ваша порция: дал ½ стак., курица 4 ломт., печёный перец ¼ банки, чеддер 1 сырка, красный Tabasco 2 мл, хлебцы 1 шт..",
+          "image": {
+            "src": "images/05-dinner.jpg",
+            "alt": "Пример подачи: красный дал с курицей, печёным перцем и чеддером."
+          }
+        },
+        {
+          "id": "snack",
+          "type": "Перекус",
+          "title": "Зернёный творог с яблоком и арахисовыми хлебцами",
+          "sharedPrepNote": "2 мин на обе порции · также готовим для Насти",
+          "ingredients": [
+            {
+              "productId": "cottage",
+              "amount": 200.0
+            },
+            {
+              "productId": "apple",
+              "amount": 65
+            },
+            {
+              "productId": "pb",
+              "amount": 22.5
+            },
+            {
+              "productId": "rye",
+              "amount": 10.5
+            }
+          ],
+          "instructions": "Разложите творог, вымойте яблоки. Намажьте арахисовую пасту на ржаные хлебцы. Яблоко можно есть вприкуску. Ваша порция: творог ⅔ банки, яблоко ½ шт., арахисовая паста 4½ ч. л., хлебцы 1 шт..",
+          "image": {
+            "src": "images/05-snack.jpg",
+            "alt": "Пример подачи: зернёный творог с яблоком и арахисовыми хлебцами."
+          }
+        }
+      ]
+    }
+  ],
+  "prep": {
+    "duration": "2–5 минут",
+    "equipment": "Две тарелки или миски, нож, вилка и микроволновка с режимами 850–900 Вт.",
+    "note": "Время указано на оба блюда вместе, включая разогрев и выдержку. Варить, запекать или размораживать продукты заранее не нужно.",
+    "steps": [
+      {
+        "time": "2 минуты",
+        "title": "Завтраки и перекусы",
+        "text": "Разложите йогурт или творог, затем добавьте фрукты и орехи. Хлебцы и хлопья добавляйте прямо перед едой."
+      },
+      {
+        "time": "3 минуты",
+        "title": "Питы и холодные тарелки",
+        "text": "Достаньте готовую птицу или ростбиф. Делите по числу ломтиков, а овощи, банки и мини-стаканчики раскладывайте на две тарелки."
+      },
+      {
+        "time": "4–5 минут",
+        "title": "Горячие блюда",
+        "text": "Сначала включите микроволновку, затем раскладывайте холодные ингредиенты. Для дала и картофеля расчёт сделан при 900 Вт. У томатной фасоли инструкция для 850 Вт."
+      }
+    ]
+  },
+  "storage": {
+    "rules": [
+      {
+        "title": "Холодильник 0–4 °C",
+        "text": "В день доставки сразу уберите туда мясо, молочные продукты, авокадо, ягоды и охлаждённые овощи. Для мяса на последние дни проверьте дату use by на закрытых упаковках."
+      },
+      {
+        "title": "По одной упаковке за раз",
+        "text": "Открывайте мясо, бобовые, скир и свёклу к нужному приёму пищи. Делите между двумя тарелками. Если на упаковке указан более ранний срок, следуйте ему."
+      },
+      {
+        "title": "При комнатной температуре",
+        "text": "До вскрытия банки бобовых, фруктовые стаканчики, дал, питы, хлопья и хлебцы храните в сухом шкафу. Заморозка не нужна."
+      }
+    ],
+    "rows": [
+      {
+        "product": "Черника и мини-огурцы",
+        "when": "Черника в пятницу и субботу, огурцы в пятницу и воскресенье",
+        "note": "Каждая упаковка идёт на две порции за раз. Мойте перед подачей."
+      },
+      {
+        "product": "Питы",
+        "when": "Первый пакет в пятницу, второй в понедельник",
+        "note": "После обеда плотно закройте оставшиеся три питы. Используйте на следующий обед не позднее чем через 24 часа."
+      },
+      {
+        "product": "Готовая птица и ростбиф",
+        "when": "Открыть перед подачей",
+        "note": "Для каждого блюда предусмотрено целое число упаковок на двоих. Филе едят холодным. Проверяйте use by, особенно для последнего дня."
+      },
+      {
+        "product": "Печёный перец",
+        "when": "Понедельник и вторник",
+        "note": "В понедельник достаньте только половину перцев. Остальное оставьте под рассолом в закрытой банке в холодильнике. Этикетка даёт 10 дней после вскрытия."
+      },
+      {
+        "product": "Дал, нут и томатная фасоль",
+        "when": "Разогреть перед подачей",
+        "note": "Разогревайте сегодняшнюю порцию. Открытую банку нута или стакан дала сразу делите на двоих. Оставшиеся закрытые банки томатной фасоли остаются в шкафу."
+      },
+      {
+        "product": "Гуакамоле",
+        "when": "Первая банка на пятницу и субботу, вторая на воскресенье, третья на понедельник и вторник",
+        "note": "На один приём пищи используйте половину банки на двоих. Закройте остаток, уберите в холодильник и съешьте в течение двух дней после вскрытия."
+      },
+      {
+        "product": "Фрукты в стаканчиках",
+        "when": "Открыть перед подачей",
+        "note": "По этикетке открытую порцию нужно использовать сразу. Обе доли из одного стаканчика подавайте одновременно."
+      }
+    ],
+    "note": "Температура и сроки после вскрытия взяты с этикеток. Общие правила охлаждения публикует британская Food Standards Agency.",
+    "url": "https://www.food.gov.uk/safety-hygiene/chilling"
+  },
+  "shopping": {
+    "note": "Количество упаковок общее для Никиты и Насти на все пять дней. Список в двух профилях одинаковый. Для весовой курицы план предполагает упаковки по два филе, примерно по 240 г.",
+    "groups": [
+      {
+        "name": "Молочные продукты и сыр",
+        "items": [
+          {
+            "productId": "skyr",
+            "quantity": 3
+          },
+          {
+            "productId": "greek",
+            "quantity": 2
+          },
+          {
+            "productId": "vanilla",
+            "quantity": 2
+          },
+          {
+            "productId": "cottage",
+            "quantity": 3
+          },
+          {
+            "productId": "cheddar",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "name": "Готовая птица и ростбиф",
+        "items": [
+          {
+            "productId": "turkey",
+            "quantity": 3
+          },
+          {
+            "productId": "chicken",
+            "quantity": 1
+          },
+          {
+            "productId": "roast",
+            "quantity": 4
+          },
+          {
+            "productId": "beef",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "name": "Овощи, ягоды и яблоки",
+        "items": [
+          {
+            "productId": "avo",
+            "quantity": 3
+          },
+          {
+            "productId": "tom",
+            "quantity": 1
+          },
+          {
+            "productId": "cuke",
+            "quantity": 2
+          },
+          {
+            "productId": "blue",
+            "quantity": 2
+          },
+          {
+            "productId": "beet",
+            "quantity": 3
+          },
+          {
+            "productId": "apple",
+            "quantity": 1
+          },
+          {
+            "productId": "potato",
+            "quantity": 1
+          },
+          {
+            "productId": "babypep",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "name": "Фрукты в соку, бобовые и суп",
+        "items": [
+          {
+            "productId": "prune",
+            "quantity": 1
+          },
+          {
+            "productId": "mand",
+            "quantity": 1
+          },
+          {
+            "productId": "four",
+            "quantity": 2
+          },
+          {
+            "productId": "chickpea",
+            "quantity": 1
+          },
+          {
+            "productId": "dhal",
+            "quantity": 2
+          },
+          {
+            "productId": "heinz",
+            "quantity": 1
+          },
+          {
+            "productId": "pep",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "name": "Хлеб, злаки, орехи и паста",
+        "items": [
+          {
+            "productId": "pitta",
+            "quantity": 2
+          },
+          {
+            "productId": "weet",
+            "quantity": 1
+          },
+          {
+            "productId": "rye",
+            "quantity": 1
+          },
+          {
+            "productId": "pb",
+            "quantity": 1
+          },
+          {
+            "productId": "nuts",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "name": "Перечные соусы",
+        "items": [
+          {
+            "productId": "red",
+            "quantity": 1
+          },
+          {
+            "productId": "green",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  "hero": {
+    "src": "images/hero.jpg",
+    "alt": "Подборка блюд из меню на двоих."
+  }
+}
