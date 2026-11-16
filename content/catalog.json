@@ -27,6 +27,13 @@
           "startDate": "2026-11-06",
           "endDate": "2026-11-10",
           "file": "plans/nikita-2026-11-06/plan.json"
+        },
+        {
+          "id": "nikita-2026-11-18",
+          "title": "Рацион на 18–22 ноября",
+          "startDate": "2026-11-18",
+          "endDate": "2026-11-22",
+          "file": "plans/nikita-2026-11-18/plan.json"
         }
       ]
     },
@@ -47,6 +54,13 @@
           "startDate": "2026-11-06",
           "endDate": "2026-11-10",
           "file": "plans/nastya-2026-11-06/plan.json"
+        },
+        {
+          "id": "nastya-2026-11-18",
+          "title": "Рацион на 18–22 ноября",
+          "startDate": "2026-11-18",
+          "endDate": "2026-11-22",
+          "file": "plans/nastya-2026-11-18/plan.json"
         }
       ]
     }
